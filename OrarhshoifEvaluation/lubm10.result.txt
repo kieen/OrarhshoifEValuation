@@ -1,0 +1,284 @@
+2016-04-14 17:49:50 INFO  OrarCLI:120 - Run abstraction with konclude
+2016-04-14 17:49:50 INFO  OntologyReaderTemplate:122 - Using OWLAPI to read the ontology:/tmp/kien/iswc16benchmark/ontologies/lubm/univ-bench.owl ...
+2016-04-14 17:49:50 INFO  OntologyReaderTemplate:127 - Information of the input ontology.
+2016-04-14 17:49:50 INFO  OntologyReaderTemplate:128 - Ontology file:/tmp/kien/iswc16benchmark/ontologies/lubm/univ-bench.owl
+2016-04-14 17:49:50 INFO  OntologyStatistic:63 - ===Ontology===
+2016-04-14 17:49:50 INFO  OntologyStatistic:67 - Statistic: Number_of_TBox_Axioms = 94
+2016-04-14 17:49:50 INFO  OntologyStatistic:68 - Statistic: Number_of_input_concept_names = 43
+2016-04-14 17:49:50 INFO  OntologyStatistic:69 - Statistic: Number_of_input_role_names = 25
+2016-04-14 17:49:50 INFO  OntologyStatistic:72 - Statistic: Number_of_input_individuals = 0
+2016-04-14 17:49:50 INFO  OntologyStatistic:82 - Statistic: Number_of_input_concept_assertions = 0
+2016-04-14 17:49:50 INFO  OntologyStatistic:83 - Statistic: Number_of_input_role_assertions = 0
+2016-04-14 17:49:50 INFO  OntologyStatistic:84 - Statistic: Number_of_input_concept_and_role_assertions = 0
+2016-04-14 17:49:50 INFO  NormalizerTemplate:215 - Normalizing the input ontology...
+2016-04-14 17:49:50 INFO  NormalizerTemplate:225 - Finished normalizing TBox of the input ontology.
+2016-04-14 17:49:50 INFO  OntologyReaderTemplate:105 - Statistic: Time_loading_input_ontology_in_seconds = 0
+2016-04-14 17:49:50 INFO  JenaMultipleABoxesStreamReader:80 - ABox 1:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_2.owl
+2016-04-14 17:49:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 2:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_11.owl
+2016-04-14 17:49:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 3:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_11.owl
+2016-04-14 17:49:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 4:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_6.owl
+2016-04-14 17:49:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 5:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_4.owl
+2016-04-14 17:49:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 6:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_1.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 7:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_8.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 8:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_9.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 9:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_2.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 10:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_21.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 11:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_6.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 12:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_21.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 13:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_5.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 14:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_13.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 15:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_9.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 16:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_13.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 17:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_13.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 18:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_5.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 19:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_13.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 20:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_13.owl
+2016-04-14 17:49:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 21:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_13.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 22:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_13.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 23:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_13.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 24:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_13.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 25:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_13.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 26:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_0.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 27:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_8.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 28:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_3.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 29:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_21.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 30:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_4.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 31:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_4.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 32:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_18.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 33:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_18.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 34:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_7.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 35:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_3.owl
+2016-04-14 17:49:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 36:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_11.owl
+2016-04-14 17:49:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 37:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_0.owl
+2016-04-14 17:49:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 38:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_23.owl
+2016-04-14 17:49:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 39:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_7.owl
+2016-04-14 17:49:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 40:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_1.owl
+2016-04-14 17:49:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 41:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_1.owl
+2016-04-14 17:49:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 42:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_15.owl
+2016-04-14 17:49:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 43:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_15.owl
+2016-04-14 17:49:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 44:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_11.owl
+2016-04-14 17:49:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 45:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_7.owl
+2016-04-14 17:49:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 46:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_15.owl
+2016-04-14 17:49:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 47:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_11.owl
+2016-04-14 17:49:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 48:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_15.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 49:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_11.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 50:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_4.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 51:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_1.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 52:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_8.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 53:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_0.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 54:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_7.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 55:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_3.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 56:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_7.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 57:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_16.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 58:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_16.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 59:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_16.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 60:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_16.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 61:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_2.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 62:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_18.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 63:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_3.owl
+2016-04-14 17:49:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 64:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_5.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 65:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_4.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 66:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_5.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 67:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_17.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 68:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_6.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 69:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_17.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 70:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_3.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 71:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_19.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 72:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_14.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 73:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_2.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 74:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_18.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 75:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_1.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 76:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_7.owl
+2016-04-14 17:49:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 77:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_9.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 78:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_8.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 79:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_14.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 80:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_3.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 81:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_10.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 82:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_5.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 83:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_0.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 84:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_4.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 85:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_14.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 86:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_10.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 87:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_6.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 88:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_15.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 89:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_11.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 90:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_11.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 91:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_5.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 92:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_11.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 93:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_9.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 94:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_15.owl
+2016-04-14 17:49:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 95:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_1.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 96:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_12.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 97:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_20.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 98:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_9.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 99:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_20.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 100:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_20.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 101:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_6.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 102:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_12.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 103:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_0.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 104:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_8.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 105:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_10.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 106:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_10.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 107:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_12.owl
+2016-04-14 17:49:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 108:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_3.owl
+2016-04-14 17:49:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 109:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_12.owl
+2016-04-14 17:49:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 110:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_12.owl
+2016-04-14 17:49:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 111:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_12.owl
+2016-04-14 17:49:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 112:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_12.owl
+2016-04-14 17:49:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 113:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_12.owl
+2016-04-14 17:49:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 114:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_6.owl
+2016-04-14 17:49:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 115:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_12.owl
+2016-04-14 17:49:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 116:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_12.owl
+2016-04-14 17:49:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 117:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_7.owl
+2016-04-14 17:49:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 118:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_3.owl
+2016-04-14 17:49:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 119:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_1.owl
+2016-04-14 17:49:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 120:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_0.owl
+2016-04-14 17:50:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 121:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_7.owl
+2016-04-14 17:50:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 122:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_22.owl
+2016-04-14 17:50:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 123:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_4.owl
+2016-04-14 17:50:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 124:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_9.owl
+2016-04-14 17:50:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 125:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_19.owl
+2016-04-14 17:50:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 126:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_6.owl
+2016-04-14 17:50:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 127:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_1.owl
+2016-04-14 17:50:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 128:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_10.owl
+2016-04-14 17:50:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 129:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_8.owl
+2016-04-14 17:50:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 130:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_2.owl
+2016-04-14 17:50:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 131:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_10.owl
+2016-04-14 17:50:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 132:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_10.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 133:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_14.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 134:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_14.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 135:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_5.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 136:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_14.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 137:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_14.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 138:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_14.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 139:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_10.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 140:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_3.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 141:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_9.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 142:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_0.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 143:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_2.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 144:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_20.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 145:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_5.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 146:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_8.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 147:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_19.owl
+2016-04-14 17:50:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 148:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_5.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 149:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_2.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 150:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_4.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 151:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_16.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 152:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_16.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 153:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_17.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 154:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_5.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 155:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_4.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 156:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_16.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 157:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_9.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 158:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_0.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 159:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_17.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 160:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_0.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 161:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_7.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 162:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_18.owl
+2016-04-14 17:50:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 163:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_6.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 164:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_8.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 165:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_2.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 166:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_17.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 167:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_9.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 168:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_1.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 169:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_17.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 170:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_4.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 171:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_7.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 172:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_10.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 173:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_14.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 174:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University1_6.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 175:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_14.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 176:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_2.owl
+2016-04-14 17:50:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 177:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_10.owl
+2016-04-14 17:50:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 178:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_8.owl
+2016-04-14 17:50:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 179:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_19.owl
+2016-04-14 17:50:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 180:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University6_1.owl
+2016-04-14 17:50:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 181:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University0_8.owl
+2016-04-14 17:50:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 182:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University9_9.owl
+2016-04-14 17:50:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 183:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_11.owl
+2016-04-14 17:50:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 184:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University3_0.owl
+2016-04-14 17:50:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 185:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University2_2.owl
+2016-04-14 17:50:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 186:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University7_6.owl
+2016-04-14 17:50:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 187:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University4_15.owl
+2016-04-14 17:50:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 188:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University8_15.owl
+2016-04-14 17:50:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 189:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/University5_3.owl
+2016-04-14 17:50:04 INFO  OntologyReaderTemplate:214 - ABoxList file:/tmp/kien/iswc16benchmark/ontologies/lubm/lubm10/lubmABoxU10.txt
+2016-04-14 17:50:04 INFO  OntologyReaderTemplate:215 - ABox statistic:
+2016-04-14 17:50:04 INFO  OntologyStatistic:47 - Statistic: Number_of_input_individuals = 207426
+2016-04-14 17:50:04 INFO  OntologyStatistic:57 - Statistic: Number_of_input_concept_assertions = 219680
+2016-04-14 17:50:04 INFO  OntologyStatistic:58 - Statistic: Number_of_input_role_assertions = 630753
+2016-04-14 17:50:04 INFO  OntologyStatistic:59 - Statistic: Number_of_input_concept_and_role_assertions = 850433
+2016-04-14 17:50:04 INFO  OntologyReaderTemplate:224 - Statistic: Time_loading_input_ontology_in_seconds = 14
+2016-04-14 17:50:04 INFO  OrarCLI:158 - Info: DL Constructors in the validated ontology: [EXISTENTIAL_RESTRICTION, TRANSITIVITY, CONJUNCTION]
+2016-04-14 17:50:04 INFO  OrarCLI:124 - Run class orar.materializer.HornSHIF.HornSHIF_Materialization_Konclude
+2016-04-14 17:50:04 INFO  OrarCLI:141 - Runnig Abstraction Refinement Using :konclude ...
+2016-04-14 17:50:04 INFO  MaterializeTemplate:80 - Performing role reasoning ...
+2016-04-14 17:50:04 INFO  MaterializeTemplate:87 - First time computing deductive closure...
+2016-04-14 17:50:06 INFO  SemiNaiveRuleEngine:58 - Reasoning time for deductive closure computing in this step: 1
+2016-04-14 17:50:06 INFO  MaterializeTemplate:93 - Starting the abstraction refinement loop...
+2016-04-14 17:50:06 INFO  MaterializeTemplate:97 - Current loop: 1
+2016-04-14 17:50:06 INFO  MaterializeTemplate:109 - Computing types...
+2016-04-14 17:50:06 INFO  MaterializeTemplate:114 - Statistic: Current_loop = 1;Statistic: Number_of_types = 29
+2016-04-14 17:50:06 INFO  MaterializeTemplate:126 - Generating abstractions ...
+2016-04-14 17:50:07 INFO  MaterializeTemplate:128 - Info:Number of abstraction ontolog(ies):1
+2016-04-14 17:50:07 INFO  MaterializeTemplate:141 - Statistic: Current_loop = 1;Statistic: Number_of_x = 29
+2016-04-14 17:50:07 INFO  MaterializeTemplate:143 - Statistic: Current_loop = 1;Statistic: Number_of_u = 0
+2016-04-14 17:50:07 INFO  MaterializeTemplate:146 - Statistic: Current_loop = 1;Statistic: Number_of_yz = 194
+2016-04-14 17:50:07 INFO  MaterializeTemplate:151 - Statistic: Current_loop = 1;Statistic: Number_of_abstract_individuals_xuyz = 223
+2016-04-14 17:50:07 INFO  MaterializeTemplate:164 - Statistic: Current_loop = 1;Statistic: Number_of_abstract_concept_assertions = 33
+2016-04-14 17:50:07 INFO  MaterializeTemplate:166 - Statistic: Current_loop = 1;Statistic: Number_of_abstract_role_assertions = 194
+2016-04-14 17:50:07 INFO  MaterializeTemplate:168 - Statistic: Current_loop = 1;Statistic: Number_of_abstract_concept_and_role_assertions = 227
+2016-04-14 17:50:07 INFO  MaterializeTemplate:175 - Materializing the abstractions ...
+2016-04-14 17:50:07 INFO  MaterializeTemplate:186 - Info:Materializing (splitted) abstract ontology: 1
+2016-04-14 17:50:07 INFO  MaterializeTemplate:187 - Info:Size of the (splitted) abstract ontology: 328
+2016-04-14 17:50:07 INFO  Konclude_HornSHOIF_InnerReasoner:98 - {info} 17:50:07:614 >> Starting Konclude ... 
+{info} 17:50:07:614 >> Konclude - Uni Ulm Parallel Reasoner
+{info} 17:50:07:614 >> Reasoner for the SROIQV(D) Description Logic, 64-bit, Version v0.6.2-544 - f07c265 (Oct 26 2015)
+
+{info} 17:50:07:617 >> Listening on port '9191'
+{info} 17:50:07:617 >> Initializing reasoner. Creating calculation context.
+
+2016-04-14 17:50:07 INFO  Konclude_HornSHOIF_InnerReasoner:105 - Konclude has been started.
+2016-04-14 17:50:07 INFO  Konclude_HornSHOIF_InnerReasoner:129 - Connected to Konclude server at: http://localhost:9191
+2016-04-14 17:50:07 INFO  InnerReasonerTemplate:136 - Computing concept assertions.... 
+2016-04-14 17:50:08 INFO  InnerReasonerTemplate:138 - Computing role assertions.... 
+2016-04-14 17:50:08 INFO  InnerReasonerTemplate:140 - Computing sameas assertions.... 
+2016-04-14 17:50:09 INFO  Konclude_HornSHOIF_InnerReasoner:119 - Konclude server has been stoped.
+2016-04-14 17:50:09 INFO  MaterializeTemplate:211 - Transferring the entailments ...
+2016-04-14 17:50:09 INFO  MaterializeTemplate:223 - Computing deductive closure wrt new entailments ...
+2016-04-14 17:50:09 INFO  MaterializeTemplate:229 - Finish loop: 1
+2016-04-14 17:50:09 INFO  MaterializeTemplate:97 - Current loop: 2
+2016-04-14 17:50:09 INFO  MaterializeTemplate:109 - Computing types...
+2016-04-14 17:50:10 INFO  MaterializeTemplate:114 - Statistic: Current_loop = 2;Statistic: Number_of_types = 29
+2016-04-14 17:50:10 INFO  MaterializeTemplate:126 - Generating abstractions ...
+2016-04-14 17:50:10 INFO  MaterializeTemplate:128 - Info:Number of abstraction ontolog(ies):1
+2016-04-14 17:50:10 INFO  MaterializeTemplate:141 - Statistic: Current_loop = 2;Statistic: Number_of_x = 29
+2016-04-14 17:50:10 INFO  MaterializeTemplate:143 - Statistic: Current_loop = 2;Statistic: Number_of_u = 0
+2016-04-14 17:50:10 INFO  MaterializeTemplate:146 - Statistic: Current_loop = 2;Statistic: Number_of_yz = 194
+2016-04-14 17:50:10 INFO  MaterializeTemplate:151 - Statistic: Current_loop = 2;Statistic: Number_of_abstract_individuals_xuyz = 223
+2016-04-14 17:50:10 INFO  MaterializeTemplate:164 - Statistic: Current_loop = 2;Statistic: Number_of_abstract_concept_assertions = 127
+2016-04-14 17:50:10 INFO  MaterializeTemplate:166 - Statistic: Current_loop = 2;Statistic: Number_of_abstract_role_assertions = 194
+2016-04-14 17:50:10 INFO  MaterializeTemplate:168 - Statistic: Current_loop = 2;Statistic: Number_of_abstract_concept_and_role_assertions = 321
+2016-04-14 17:50:10 INFO  MaterializeTemplate:175 - Materializing the abstractions ...
+2016-04-14 17:50:10 INFO  MaterializeTemplate:186 - Info:Materializing (splitted) abstract ontology: 1
+2016-04-14 17:50:10 INFO  MaterializeTemplate:187 - Info:Size of the (splitted) abstract ontology: 422
+2016-04-14 17:50:10 INFO  Konclude_HornSHOIF_InnerReasoner:98 - {info} 17:50:10:854 >> Starting Konclude ... 
+{info} 17:50:10:854 >> Konclude - Uni Ulm Parallel Reasoner
+{info} 17:50:10:854 >> Reasoner for the SROIQV(D) Description Logic, 64-bit, Version v0.6.2-544 - f07c265 (Oct 26 2015)
+
+{info} 17:50:10:857 >> Listening on port '9191'
+{info} 17:50:10:857 >> Initializing reasoner. Creating calculation context.
+
+2016-04-14 17:50:10 INFO  Konclude_HornSHOIF_InnerReasoner:105 - Konclude has been started.
+2016-04-14 17:50:10 INFO  Konclude_HornSHOIF_InnerReasoner:129 - Connected to Konclude server at: http://localhost:9191
+2016-04-14 17:50:10 INFO  InnerReasonerTemplate:136 - Computing concept assertions.... 
+2016-04-14 17:50:11 INFO  InnerReasonerTemplate:138 - Computing role assertions.... 
+2016-04-14 17:50:11 INFO  InnerReasonerTemplate:140 - Computing sameas assertions.... 
+2016-04-14 17:50:12 INFO  Konclude_HornSHOIF_InnerReasoner:119 - Konclude server has been stoped.
+2016-04-14 17:50:12 INFO  MaterializeTemplate:211 - Transferring the entailments ...
+2016-04-14 17:50:12 INFO  MaterializeTemplate:229 - Finish loop: 2
+2016-04-14 17:50:12 INFO  MaterializeTemplate:235 - Statistic: Number_of_refinement_steps = 1
+2016-04-14 17:50:12 INFO  MaterializeTemplate:243 - Statistic: Time_reasoning_using_abstraction_in_seconds = 7
+2016-04-14 17:50:12 INFO  MaterializeTemplate:250 - Statistic: Number_of_materialized_concept_assertions = 605739
+2016-04-14 17:50:12 INFO  MaterializeTemplate:251 - Statistic: Number_of_materialized_role_assertions = 835868
+2016-04-14 17:50:12 INFO  MaterializeTemplate:252 - Statistic: Number_of_materialized_concept_and_role_assertions = 1441607
