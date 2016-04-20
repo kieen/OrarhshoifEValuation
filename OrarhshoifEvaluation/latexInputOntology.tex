@@ -1,0 +1,48 @@
+\documentclass{llncs}
+\usepackage{times}
+\begin{document}
+\newcommand{\rb}[1]{\raisebox{1.5ex}[-1.5ex]{#1}}
+\begin{table*}[tb]
+  \caption{Test suite statistics with the number of atomic concepts
+    in the ontology (\#$A$ and \#$A_N$ for the normalized ontology), roles (\#$R$), individuals (\#$I$), role 
+    (\#$R(a, b)$) and concept (\#$A(a)$) assertions, and the number of 
+    concept assertions inferred by the system\label{tab:evalontologymetrics}}
+    \begin{center}
+      \begin{tabular}{|l|l|l| r| r| r| r  || r |}
+        \hline
+        Ontology & DL language & \#TBox axioms& \#$A$ & \#$R$ & \#$I$ &
+                                                                        \#assertions &\# inferred assertions\\
+        \hline\hline
+        
+        coburnHornSHOIF.result & DL language  &$1481$  &$719$  &$109$  &$123515$  &$534622$  &$1683985$   \\ 
+
+gazetteer.result & DL language  &$1279$  &$710$  &$15$  &$516150$  &$651276$  &$2227456$   \\ 
+
+npdpagoda.result & DL language  &$773$  &$331$  &$148$  &$264105$  &$911553$  &$1728228$   \\ 
+
+dbpediaplus.result & DL language  &$1714$  &$442$  &$806$  &$3790936$  &$25276255$  &$28452237$   \\ 
+
+imdb.result & DL language  &$157$  &$88$  &$39$  &$6502978$  &$27682578$  &$89798748$   \\ 
+
+lubm10.result & DL language  &$94$  &$43$  &$25$  &$207426$  &$850433$  &$1441607$   \\ 
+
+lubm50.result & DL language  &$94$  &$43$  &$25$  &$1082818$  &$4445949$  &$7535318$   \\ 
+
+lubm100.result & DL language  &$94$  &$43$  &$25$  &$2179766$  &$8954615$  &$15175878$   \\ 
+
+lubm500.result & DL language  &$94$  &$43$  &$25$  &$10847183$  &$44573624$  &$75549033$   \\ 
+
+uobm10.result & DL language  &$150$  &$69$  &$35$  &$242491$  &$1926941$  &$4310011$   \\ 
+
+uobm50.result & DL language  &$150$  &$69$  &$35$  &$1227123$  &$9751725$  &$21807241$   \\ 
+
+uobm100.result & DL language  &$150$  &$69$  &$35$  &$2461347$  &$19571799$  &$43762348$   \\ 
+
+uobm500.result & DL language  &$150$  &$69$  &$35$  &$12375804$  &$98374736$  &$219891326$   \\ 
+
+\hline
+      \end{tabular}
+    \end{center}
+
+\end{table*}
+\end{document}

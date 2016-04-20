@@ -1,0 +1,17 @@
+\documentclass{llncs}
+\usepackage{times}
+\begin{document}
+\newcommand{\rb}[1]{\raisebox{1.5ex}[-1.5ex]{#1}}
+\begin{table*}[tb]
+  \caption{Test suite statistics with the number of atomic concepts
+    in the ontology (\#$A$ and \#$A_N$ for the normalized ontology), roles (\#$R$), individuals (\#$I$), role 
+    (\#$R(a, b)$) and concept (\#$A(a)$) assertions, and the number of 
+    concept assertions inferred by the system\label{tab:evalontologymetrics}}
+    \begin{center}
+      \begin{tabular}{|l|l|l| r| r| r| r  || r |}
+        \hline
+        Ontology & DL language & \#TBox axioms& \#$A$ & \#$R$ & \#$I$ &
+                                                                        \#assertions &\# inferred assertions\\
+        \hline\hline
+        
+        

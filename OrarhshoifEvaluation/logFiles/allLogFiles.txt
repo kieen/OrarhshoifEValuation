@@ -1,8 +1,8 @@
 /Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/coburnHornSHOIF.result.txt
 /Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/gazetteer.result.txt
-/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/npd_pagoda.result.txt
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/npdpagoda.result.txt
 
-/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/dbpedia_plus.result.txt
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/dbpediaplus.result.txt
 /Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/imdb.result.txt
 
 /Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/lubm10.result.txt

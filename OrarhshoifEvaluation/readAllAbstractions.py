@@ -29,4 +29,8 @@ if __name__ == '__main__':
     else:
         print("Please use only 2 arguments: aFileContainAListOfLogFile,  resultFile.tex")
         print("Example Run: readAbstractionInfoForAllOntologies  aFileContainAListOfLogFiles  resultFile.tex")
+
 # Test
+readAbstractionInfoForAllOntologies("logFiles/allLogFiles.txt", "latexInputOntology.tex")
+    
+             

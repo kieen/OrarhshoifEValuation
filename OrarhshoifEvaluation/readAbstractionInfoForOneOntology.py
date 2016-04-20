@@ -39,18 +39,18 @@ nameOfTheFile   &number_of_refinement_steps
 & #types_in_last_abstraction  &#individual_last_abstraction & #assertions_last_abstraction & %size_last_abstraction_wrt_originalAbox
 \\
 '''
-def readAbstractionInfoForOneOntology(logFileName):
+def readAbstractionInfoForOneOntology(logFilePath):
     global abstractionDict
     abstractionDict.clear()
     global globalLogFileName
-    fileNameInPath = os.path.basename(logFileName)
+    fileNameInPath = os.path.basename(logFilePath)
     splittedExentsion = os.path.splitext(fileNameInPath)
     globalLogFileName = splittedExentsion[0]
     
     startAbox = False
     # a dictionary for abstraction which map the first(1), second (2),... abstraction to its info,e.g. type, size,..., stored in a list
 
-    with open(logFileName, encoding='utf-8') as logFile:
+    with open(logFilePath, encoding='utf-8') as logFile:
         for aline in logFile:
             aline = str(aline.strip())
             '''print TBox information'''
@@ -60,7 +60,7 @@ def readAbstractionInfoForOneOntology(logFileName):
             printInputInformation(aline, NUMBER_OF_INPUT_CONCEPTNAMES)
             printInputInformation(aline, NUMBER_OF_INPUT_ROLENAMES)
             printInputInformation(aline, NUMBER_OF_TBOX_AXIOMS)
-            numberOfInputAssertionsReadFromThisLine = getInformation(aline, NUMBER_OF_INPUT_ASSERTIONS) 
+            numberOfInputAssertionsReadFromThisLine = getInputOntologyInformation(aline, NUMBER_OF_INPUT_ASSERTIONS) 
                
             if not (numberOfInputAssertionsReadFromThisLine is None):
                 global numberOfInputAssertions
@@ -75,7 +75,7 @@ def readAbstractionInfoForOneOntology(logFileName):
                 printInputInformation(aline, NUMBER_OF_INPUT_CONCEPTASSERTIONS)
                 printInputInformation(aline, NUMBER_OF_INPUT_ROLEASSERTIONS)
                 printInputInformation(aline, NUMBER_OF_INPUT_ASSERTIONS)
-                numberOfInputAssertionsReadFromThisLine = getInformation(aline, NUMBER_OF_INPUT_ASSERTIONS) 
+                numberOfInputAssertionsReadFromThisLine = getInputOntologyInformation(aline, NUMBER_OF_INPUT_ASSERTIONS) 
                
                 if not (numberOfInputAssertionsReadFromThisLine is None):
                     global numberOfInputAssertions
@@ -136,7 +136,7 @@ def printInputInformation(aString, informationToBePrinted):
         print(informationToBePrinted + listOfStrings[1])
         return listOfStrings[1]
 
-def getInformation(aString, informationToGet):
+def getInputOntologyInformation(aString, informationToGet):
     listOfStrings = str(aString).split(informationToGet)
     sizeOfResultingList = len(listOfStrings)
     if sizeOfResultingList > 1:
@@ -148,9 +148,9 @@ def getAbstractionInfoForOneLoop(aLine, informationToGet):
     if CURRENT_LOOP in aString and informationToGet in aString:
         twoSplittedParts = aString.split(";")
 #         print(aString)
-        abstractionLoop = getInformation(twoSplittedParts[0], CURRENT_LOOP)
+        abstractionLoop = getInputOntologyInformation(twoSplittedParts[0], CURRENT_LOOP)
 #         print(abstractionLoop)
-        informationValue = getInformation(aString, informationToGet)
+        informationValue = getInputOntologyInformation(aString, informationToGet)
 #         print(informationValue)
         ''' put them to the dictionary'''
         updateDictionary(abstractionLoop, informationToGet, informationValue)
