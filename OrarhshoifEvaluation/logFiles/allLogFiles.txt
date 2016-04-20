@@ -1,0 +1,16 @@
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/coburnHornSHOIF.result.txt
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/gazetteer.result.txt
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/npd_pagoda.result.txt
+
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/dbpedia_plus.result.txt
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/imdb.result.txt
+
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/lubm10.result.txt
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/lubm50.result.txt
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/lubm100.result.txt
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/lubm500.result.txt
+
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/uobm10.result.txt
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/uobm50.result.txt
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/uobm100.result.txt
+/Users/kien/git/OrarhshoifEvaluation/OrarhshoifEvaluation/logFiles/uobm500.result.txt

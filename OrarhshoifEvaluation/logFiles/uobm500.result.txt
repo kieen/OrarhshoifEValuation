@@ -1,0 +1,667 @@
+2016-04-15 17:59:14 INFO  OrarCLI:120 - Run abstraction with konclude
+2016-04-15 17:59:14 INFO  OntologyReaderTemplate:122 - Using OWLAPI to read the ontology:/tmp/kien/iswc16benchmark/ontologies/uobm_origintbox_withprefix_of_oxfordabox/uobmtbox_origin_workwith_oxford_generator.owl ...
+2016-04-15 17:59:14 INFO  OntologyReaderTemplate:127 - Information of the input ontology.
+2016-04-15 17:59:14 INFO  OntologyReaderTemplate:128 - Ontology file:/tmp/kien/iswc16benchmark/ontologies/uobm_origintbox_withprefix_of_oxfordabox/uobmtbox_origin_workwith_oxford_generator.owl
+2016-04-15 17:59:14 INFO  OntologyStatistic:63 - ===Ontology===
+2016-04-15 17:59:14 INFO  OntologyStatistic:67 - Statistic: Number_of_TBox_Axioms = 150
+2016-04-15 17:59:14 INFO  OntologyStatistic:68 - Statistic: Number_of_input_concept_names = 69
+2016-04-15 17:59:14 INFO  OntologyStatistic:69 - Statistic: Number_of_input_role_names = 35
+2016-04-15 17:59:14 INFO  OntologyStatistic:72 - Statistic: Number_of_input_individuals = 58
+2016-04-15 17:59:14 INFO  OntologyStatistic:82 - Statistic: Number_of_input_concept_assertions = 58
+2016-04-15 17:59:14 INFO  OntologyStatistic:83 - Statistic: Number_of_input_role_assertions = 0
+2016-04-15 17:59:14 INFO  OntologyStatistic:84 - Statistic: Number_of_input_concept_and_role_assertions = 58
+2016-04-15 17:59:14 INFO  NormalizerTemplate:215 - Normalizing the input ontology...
+2016-04-15 17:59:14 INFO  NormalizerTemplate:225 - Finished normalizing TBox of the input ontology.
+2016-04-15 17:59:14 INFO  TransitivityNormalizerWithHermit:74 - Normalizing transitivity...
+2016-04-15 17:59:15 INFO  TransitivityNormalizerWithHermit:86 - Finished normalizing transitivity.
+2016-04-15 17:59:15 INFO  OntologyReaderTemplate:105 - Statistic: Time_loading_input_ontology_in_seconds = 0
+2016-04-15 17:59:15 INFO  JenaMultipleABoxesStreamReader:80 - ABox 1:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ97.owl
+2016-04-15 17:59:19 INFO  JenaMultipleABoxesStreamReader:80 - ABox 2:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ268.owl
+2016-04-15 17:59:22 INFO  JenaMultipleABoxesStreamReader:80 - ABox 3:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ357.owl
+2016-04-15 17:59:26 INFO  JenaMultipleABoxesStreamReader:80 - ABox 4:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ388.owl
+2016-04-15 17:59:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 5:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ124.owl
+2016-04-15 17:59:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 6:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ299.owl
+2016-04-15 17:59:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 7:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ221.owl
+2016-04-15 17:59:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 8:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ310.owl
+2016-04-15 17:59:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 9:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ446.owl
+2016-04-15 17:59:45 INFO  JenaMultipleABoxesStreamReader:80 - ABox 10:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ485.owl
+2016-04-15 17:59:48 INFO  JenaMultipleABoxesStreamReader:80 - ABox 11:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ493.owl
+2016-04-15 17:59:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 12:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ132.owl
+2016-04-15 17:59:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 13:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ438.owl
+2016-04-15 17:59:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 14:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ396.owl
+2016-04-15 18:00:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 15:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ90.owl
+2016-04-15 18:00:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 16:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ66.owl
+2016-04-15 18:00:06 INFO  JenaMultipleABoxesStreamReader:80 - ABox 17:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ302.owl
+2016-04-15 18:00:09 INFO  JenaMultipleABoxesStreamReader:80 - ABox 18:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ205.owl
+2016-04-15 18:00:12 INFO  JenaMultipleABoxesStreamReader:80 - ABox 19:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ365.owl
+2016-04-15 18:00:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 20:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ101.owl
+2016-04-15 18:00:21 INFO  JenaMultipleABoxesStreamReader:80 - ABox 21:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ462.owl
+2016-04-15 18:00:24 INFO  JenaMultipleABoxesStreamReader:80 - ABox 22:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ469.owl
+2016-04-15 18:00:27 INFO  JenaMultipleABoxesStreamReader:80 - ABox 23:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ108.owl
+2016-04-15 18:00:29 INFO  JenaMultipleABoxesStreamReader:80 - ABox 24:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ187.owl
+2016-04-15 18:00:32 INFO  JenaMultipleABoxesStreamReader:80 - ABox 25:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ42.owl
+2016-04-15 18:00:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 26:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ11.owl
+2016-04-15 18:00:40 INFO  JenaMultipleABoxesStreamReader:80 - ABox 27:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ381.owl
+2016-04-15 18:00:44 INFO  JenaMultipleABoxesStreamReader:80 - ABox 28:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ284.owl
+2016-04-15 18:00:47 INFO  JenaMultipleABoxesStreamReader:80 - ABox 29:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ414.owl
+2016-04-15 18:00:50 INFO  JenaMultipleABoxesStreamReader:80 - ABox 30:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ309.owl
+2016-04-15 18:00:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 31:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ228.owl
+2016-04-15 18:00:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 32:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ253.owl
+2016-04-15 18:00:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 33:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ172.owl
+2016-04-15 18:01:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 34:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ7.owl
+2016-04-15 18:01:11 INFO  JenaMultipleABoxesStreamReader:80 - ABox 35:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ237.owl
+2016-04-15 18:01:14 INFO  JenaMultipleABoxesStreamReader:80 - ABox 36:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ155.owl
+2016-04-15 18:01:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 37:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ164.owl
+2016-04-15 18:01:20 INFO  JenaMultipleABoxesStreamReader:80 - ABox 38:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ34.owl
+2016-04-15 18:01:24 INFO  JenaMultipleABoxesStreamReader:80 - ABox 39:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ341.owl
+2016-04-15 18:01:27 INFO  JenaMultipleABoxesStreamReader:80 - ABox 40:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ326.owl
+2016-04-15 18:01:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 41:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ430.owl
+2016-04-15 18:01:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 42:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ26.owl
+2016-04-15 18:01:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 43:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ407.owl
+2016-04-15 18:01:40 INFO  JenaMultipleABoxesStreamReader:80 - ABox 44:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ318.owl
+2016-04-15 18:01:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 45:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ260.owl
+2016-04-15 18:01:45 INFO  JenaMultipleABoxesStreamReader:80 - ABox 46:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ213.owl
+2016-04-15 18:01:48 INFO  JenaMultipleABoxesStreamReader:80 - ABox 47:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ454.owl
+2016-04-15 18:01:50 INFO  JenaMultipleABoxesStreamReader:80 - ABox 48:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ140.owl
+2016-04-15 18:01:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 49:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ179.owl
+2016-04-15 18:01:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 50:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ58.owl
+2016-04-15 18:01:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 51:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ51.owl
+2016-04-15 18:02:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 52:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ373.owl
+2016-04-15 18:02:05 INFO  JenaMultipleABoxesStreamReader:80 - ABox 53:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ81.owl
+2016-04-15 18:02:20 INFO  JenaMultipleABoxesStreamReader:80 - ABox 54:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ478.owl
+2016-04-15 18:02:23 INFO  JenaMultipleABoxesStreamReader:80 - ABox 55:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ292.owl
+2016-04-15 18:02:27 INFO  JenaMultipleABoxesStreamReader:80 - ABox 56:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ147.owl
+2016-04-15 18:02:29 INFO  JenaMultipleABoxesStreamReader:80 - ABox 57:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ117.owl
+2016-04-15 18:02:32 INFO  JenaMultipleABoxesStreamReader:80 - ABox 58:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ422.owl
+2016-04-15 18:02:35 INFO  JenaMultipleABoxesStreamReader:80 - ABox 59:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ275.owl
+2016-04-15 18:02:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 60:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ245.owl
+2016-04-15 18:02:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 61:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ380.owl
+2016-04-15 18:02:44 INFO  JenaMultipleABoxesStreamReader:80 - ABox 62:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ291.owl
+2016-04-15 18:02:46 INFO  JenaMultipleABoxesStreamReader:80 - ABox 63:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ12.owl
+2016-04-15 18:02:49 INFO  JenaMultipleABoxesStreamReader:80 - ABox 64:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ194.owl
+2016-04-15 18:02:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 65:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ486.owl
+2016-04-15 18:02:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 66:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ437.owl
+2016-04-15 18:02:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 67:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ141.owl
+2016-04-15 18:03:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 68:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ429.owl
+2016-04-15 18:03:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 69:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ230.owl
+2016-04-15 18:03:08 INFO  JenaMultipleABoxesStreamReader:80 - ABox 70:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ107.owl
+2016-04-15 18:03:10 INFO  JenaMultipleABoxesStreamReader:80 - ABox 71:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ468.owl
+2016-04-15 18:03:14 INFO  JenaMultipleABoxesStreamReader:80 - ABox 72:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ102.owl
+2016-04-15 18:03:16 INFO  JenaMultipleABoxesStreamReader:80 - ABox 73:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ463.owl
+2016-04-15 18:03:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 74:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ204.owl
+2016-04-15 18:03:21 INFO  JenaMultipleABoxesStreamReader:80 - ABox 75:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ188.owl
+2016-04-15 18:03:24 INFO  JenaMultipleABoxesStreamReader:80 - ABox 76:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ358.owl
+2016-04-15 18:03:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 77:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ395.owl
+2016-04-15 18:03:31 INFO  JenaMultipleABoxesStreamReader:80 - ABox 78:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ43.owl
+2016-04-15 18:03:34 INFO  JenaMultipleABoxesStreamReader:80 - ABox 79:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ49.owl
+2016-04-15 18:03:37 INFO  JenaMultipleABoxesStreamReader:80 - ABox 80:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ285.owl
+2016-04-15 18:03:40 INFO  JenaMultipleABoxesStreamReader:80 - ABox 81:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ125.owl
+2016-04-15 18:03:43 INFO  JenaMultipleABoxesStreamReader:80 - ABox 82:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ389.owl
+2016-04-15 18:03:46 INFO  JenaMultipleABoxesStreamReader:80 - ABox 83:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ131.owl
+2016-04-15 18:03:48 INFO  JenaMultipleABoxesStreamReader:80 - ABox 84:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ400.owl
+2016-04-15 18:03:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 85:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ492.owl
+2016-04-15 18:03:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 86:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ267.owl
+2016-04-15 18:03:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 87:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ364.owl
+2016-04-15 18:04:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 88:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ236.owl
+2016-04-15 18:04:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 89:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ303.owl
+2016-04-15 18:04:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 90:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ139.owl
+2016-04-15 18:04:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 91:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ98.owl
+2016-04-15 18:04:34 INFO  JenaMultipleABoxesStreamReader:80 - ABox 92:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ431.owl
+2016-04-15 18:04:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 93:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ156.owl
+2016-04-15 18:04:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 94:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ342.owl
+2016-04-15 18:04:41 INFO  JenaMultipleABoxesStreamReader:80 - ABox 95:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ50.owl
+2016-04-15 18:04:43 INFO  JenaMultipleABoxesStreamReader:80 - ABox 96:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ173.owl
+2016-04-15 18:04:46 INFO  JenaMultipleABoxesStreamReader:80 - ABox 97:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ246.owl
+2016-04-15 18:04:49 INFO  JenaMultipleABoxesStreamReader:80 - ABox 98:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ163.owl
+2016-04-15 18:04:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 99:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ421.owl
+2016-04-15 18:04:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 100:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ229.owl
+2016-04-15 18:04:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 101:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ415.owl
+2016-04-15 18:04:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 102:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ146.owl
+2016-04-15 18:05:11 INFO  JenaMultipleABoxesStreamReader:80 - ABox 103:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ252.owl
+2016-04-15 18:05:14 INFO  JenaMultipleABoxesStreamReader:80 - ABox 104:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ180.owl
+2016-04-15 18:05:17 INFO  JenaMultipleABoxesStreamReader:80 - ABox 105:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ379.owl
+2016-04-15 18:05:20 INFO  JenaMultipleABoxesStreamReader:80 - ABox 106:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ44.owl
+2016-04-15 18:05:23 INFO  JenaMultipleABoxesStreamReader:80 - ABox 107:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ82.owl
+2016-04-15 18:05:25 INFO  JenaMultipleABoxesStreamReader:80 - ABox 108:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ319.owl
+2016-04-15 18:05:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 109:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ374.owl
+2016-04-15 18:05:31 INFO  JenaMultipleABoxesStreamReader:80 - ABox 110:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ65.owl
+2016-04-15 18:05:34 INFO  JenaMultipleABoxesStreamReader:80 - ABox 111:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ27.owl
+2016-04-15 18:05:37 INFO  JenaMultipleABoxesStreamReader:80 - ABox 112:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ447.owl
+2016-04-15 18:05:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 113:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ220.owl
+2016-04-15 18:05:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 114:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ214.owl
+2016-04-15 18:05:45 INFO  JenaMultipleABoxesStreamReader:80 - ABox 115:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ308.owl
+2016-04-15 18:05:49 INFO  JenaMultipleABoxesStreamReader:80 - ABox 116:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ453.owl
+2016-04-15 18:05:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 117:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ59.owl
+2016-04-15 18:05:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 118:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ6.owl
+2016-04-15 18:05:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 119:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ178.owl
+2016-04-15 18:05:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 120:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ325.owl
+2016-04-15 18:06:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 121:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ195.owl
+2016-04-15 18:06:06 INFO  JenaMultipleABoxesStreamReader:80 - ABox 122:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ33.owl
+2016-04-15 18:06:08 INFO  JenaMultipleABoxesStreamReader:80 - ABox 123:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ470.owl
+2016-04-15 18:06:12 INFO  JenaMultipleABoxesStreamReader:80 - ABox 124:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ126.owl
+2016-04-15 18:06:15 INFO  JenaMultipleABoxesStreamReader:80 - ABox 125:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ355.owl
+2016-04-15 18:06:17 INFO  JenaMultipleABoxesStreamReader:80 - ABox 126:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ304.owl
+2016-04-15 18:06:20 INFO  JenaMultipleABoxesStreamReader:80 - ABox 127:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ320.owl
+2016-04-15 18:06:25 INFO  JenaMultipleABoxesStreamReader:80 - ABox 128:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ398.owl
+2016-04-15 18:06:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 129:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ347.owl
+2016-04-15 18:06:31 INFO  JenaMultipleABoxesStreamReader:80 - ABox 130:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ134.owl
+2016-04-15 18:06:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 131:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ479.owl
+2016-04-15 18:06:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 132:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ1.owl
+2016-04-15 18:06:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 133:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ460.owl
+2016-04-15 18:06:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 134:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ231.owl
+2016-04-15 18:06:44 INFO  JenaMultipleABoxesStreamReader:80 - ABox 135:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ274.owl
+2016-04-15 18:06:47 INFO  JenaMultipleABoxesStreamReader:80 - ABox 136:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ428.owl
+2016-04-15 18:06:50 INFO  JenaMultipleABoxesStreamReader:80 - ABox 137:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ363.owl
+2016-04-15 18:06:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 138:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ177.owl
+2016-04-15 18:06:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 139:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ436.owl
+2016-04-15 18:06:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 140:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ207.owl
+2016-04-15 18:07:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 141:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ290.owl
+2016-04-15 18:07:08 INFO  JenaMultipleABoxesStreamReader:80 - ABox 142:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ99.owl
+2016-04-15 18:07:11 INFO  JenaMultipleABoxesStreamReader:80 - ABox 143:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ56.owl
+2016-04-15 18:07:14 INFO  JenaMultipleABoxesStreamReader:80 - ABox 144:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ282.owl
+2016-04-15 18:07:17 INFO  JenaMultipleABoxesStreamReader:80 - ABox 145:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ13.owl
+2016-04-15 18:07:20 INFO  JenaMultipleABoxesStreamReader:80 - ABox 146:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ162.owl
+2016-04-15 18:07:23 INFO  JenaMultipleABoxesStreamReader:80 - ABox 147:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ383.owl
+2016-04-15 18:07:26 INFO  JenaMultipleABoxesStreamReader:80 - ABox 148:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ79.owl
+2016-04-15 18:07:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 149:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ36.owl
+2016-04-15 18:07:31 INFO  JenaMultipleABoxesStreamReader:80 - ABox 150:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ235.owl
+2016-04-15 18:07:34 INFO  JenaMultipleABoxesStreamReader:80 - ABox 151:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ408.owl
+2016-04-15 18:07:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 152:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ499.owl
+2016-04-15 18:07:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 153:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ432.owl
+2016-04-15 18:07:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 154:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ456.owl
+2016-04-15 18:07:45 INFO  JenaMultipleABoxesStreamReader:80 - ABox 155:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ475.owl
+2016-04-15 18:07:49 INFO  JenaMultipleABoxesStreamReader:80 - ABox 156:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ254.owl
+2016-04-15 18:07:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 157:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ211.owl
+2016-04-15 18:07:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 158:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ413.owl
+2016-04-15 18:07:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 159:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ219.owl
+2016-04-15 18:08:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 160:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ297.owl
+2016-04-15 18:08:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 161:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ169.owl
+2016-04-15 18:08:06 INFO  JenaMultipleABoxesStreamReader:80 - ABox 162:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ181.owl
+2016-04-15 18:08:09 INFO  JenaMultipleABoxesStreamReader:80 - ABox 163:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ378.owl
+2016-04-15 18:08:11 INFO  JenaMultipleABoxesStreamReader:80 - ABox 164:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ335.owl
+2016-04-15 18:08:14 INFO  JenaMultipleABoxesStreamReader:80 - ABox 165:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ106.owl
+2016-04-15 18:08:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 166:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ149.owl
+2016-04-15 18:08:21 INFO  JenaMultipleABoxesStreamReader:80 - ABox 167:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ40.owl
+2016-04-15 18:08:24 INFO  JenaMultipleABoxesStreamReader:80 - ABox 168:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ332.owl
+2016-04-15 18:08:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 169:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ92.owl
+2016-04-15 18:08:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 170:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ375.owl
+2016-04-15 18:08:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 171:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ83.owl
+2016-04-15 18:09:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 172:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ433.owl
+2016-04-15 18:09:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 173:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ247.owl
+2016-04-15 18:09:07 INFO  JenaMultipleABoxesStreamReader:80 - ABox 174:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ234.owl
+2016-04-15 18:09:10 INFO  JenaMultipleABoxesStreamReader:80 - ABox 175:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ277.owl
+2016-04-15 18:09:13 INFO  JenaMultipleABoxesStreamReader:80 - ABox 176:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ226.owl
+2016-04-15 18:09:17 INFO  JenaMultipleABoxesStreamReader:80 - ABox 177:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ269.owl
+2016-04-15 18:09:20 INFO  JenaMultipleABoxesStreamReader:80 - ABox 178:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ196.owl
+2016-04-15 18:09:22 INFO  JenaMultipleABoxesStreamReader:80 - ABox 179:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ484.owl
+2016-04-15 18:09:25 INFO  JenaMultipleABoxesStreamReader:80 - ABox 180:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ110.owl
+2016-04-15 18:09:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 181:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ441.owl
+2016-04-15 18:09:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 182:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ153.owl
+2016-04-15 18:09:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 183:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ21.owl
+2016-04-15 18:09:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 184:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ360.owl
+2016-04-15 18:09:38 INFO  JenaMultipleABoxesStreamReader:80 - ABox 185:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ64.owl
+2016-04-15 18:09:41 INFO  JenaMultipleABoxesStreamReader:80 - ABox 186:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ28.owl
+2016-04-15 18:09:47 INFO  JenaMultipleABoxesStreamReader:80 - ABox 187:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ307.owl
+2016-04-15 18:09:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 188:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ262.owl
+2016-04-15 18:09:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 189:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ390.owl
+2016-04-15 18:09:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 190:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ448.owl
+2016-04-15 18:09:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 191:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ405.owl
+2016-04-15 18:10:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 192:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ283.owl
+2016-04-15 18:10:05 INFO  JenaMultipleABoxesStreamReader:80 - ABox 193:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ63.owl
+2016-04-15 18:10:08 INFO  JenaMultipleABoxesStreamReader:80 - ABox 194:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ240.owl
+2016-04-15 18:10:10 INFO  JenaMultipleABoxesStreamReader:80 - ABox 195:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ427.owl
+2016-04-15 18:10:13 INFO  JenaMultipleABoxesStreamReader:80 - ABox 196:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ356.owl
+2016-04-15 18:10:15 INFO  JenaMultipleABoxesStreamReader:80 - ABox 197:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ127.owl
+2016-04-15 18:10:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 198:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ313.owl
+2016-04-15 18:10:21 INFO  JenaMultipleABoxesStreamReader:80 - ABox 199:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ311.owl
+2016-04-15 18:10:24 INFO  JenaMultipleABoxesStreamReader:80 - ABox 200:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ397.owl
+2016-04-15 18:10:27 INFO  JenaMultipleABoxesStreamReader:80 - ABox 201:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ305.owl
+2016-04-15 18:10:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 202:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ348.owl
+2016-04-15 18:10:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 203:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ354.owl
+2016-04-15 18:10:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 204:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ362.owl
+2016-04-15 18:10:41 INFO  JenaMultipleABoxesStreamReader:80 - ABox 205:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ176.owl
+2016-04-15 18:10:44 INFO  JenaMultipleABoxesStreamReader:80 - ABox 206:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ133.owl
+2016-04-15 18:10:47 INFO  JenaMultipleABoxesStreamReader:80 - ABox 207:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ0.owl
+2016-04-15 18:10:50 INFO  JenaMultipleABoxesStreamReader:80 - ABox 208:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ9.owl
+2016-04-15 18:10:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 209:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ455.owl
+2016-04-15 18:10:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 210:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ476.owl
+2016-04-15 18:10:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 211:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ212.owl
+2016-04-15 18:11:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 212:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ412.owl
+2016-04-15 18:11:05 INFO  JenaMultipleABoxesStreamReader:80 - ABox 213:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ382.owl
+2016-04-15 18:11:08 INFO  JenaMultipleABoxesStreamReader:80 - ABox 214:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ255.owl
+2016-04-15 18:11:11 INFO  JenaMultipleABoxesStreamReader:80 - ABox 215:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ298.owl
+2016-04-15 18:11:14 INFO  JenaMultipleABoxesStreamReader:80 - ABox 216:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ328.owl
+2016-04-15 18:11:16 INFO  JenaMultipleABoxesStreamReader:80 - ABox 217:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ161.owl
+2016-04-15 18:11:19 INFO  JenaMultipleABoxesStreamReader:80 - ABox 218:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ206.owl
+2016-04-15 18:11:22 INFO  JenaMultipleABoxesStreamReader:80 - ABox 219:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ249.owl
+2016-04-15 18:11:24 INFO  JenaMultipleABoxesStreamReader:80 - ABox 220:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ461.owl
+2016-04-15 18:11:26 INFO  JenaMultipleABoxesStreamReader:80 - ABox 221:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ377.owl
+2016-04-15 18:11:34 INFO  JenaMultipleABoxesStreamReader:80 - ABox 222:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ449.owl
+2016-04-15 18:11:37 INFO  JenaMultipleABoxesStreamReader:80 - ABox 223:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ334.owl
+2016-04-15 18:11:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 224:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ41.owl
+2016-04-15 18:11:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 225:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ148.owl
+2016-04-15 18:11:45 INFO  JenaMultipleABoxesStreamReader:80 - ABox 226:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ333.owl
+2016-04-15 18:11:48 INFO  JenaMultipleABoxesStreamReader:80 - ABox 227:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ84.owl
+2016-04-15 18:11:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 228:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ105.owl
+2016-04-15 18:11:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 229:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ261.owl
+2016-04-15 18:11:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 230:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ376.owl
+2016-04-15 18:12:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 231:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ406.owl
+2016-04-15 18:12:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 232:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ8.owl
+2016-04-15 18:12:05 INFO  JenaMultipleABoxesStreamReader:80 - ABox 233:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ111.owl
+2016-04-15 18:12:07 INFO  JenaMultipleABoxesStreamReader:80 - ABox 234:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ78.owl
+2016-04-15 18:12:10 INFO  JenaMultipleABoxesStreamReader:80 - ABox 235:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ91.owl
+2016-04-15 18:12:13 INFO  JenaMultipleABoxesStreamReader:80 - ABox 236:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ340.owl
+2016-04-15 18:12:16 INFO  JenaMultipleABoxesStreamReader:80 - ABox 237:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ35.owl
+2016-04-15 18:12:19 INFO  JenaMultipleABoxesStreamReader:80 - ABox 238:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ197.owl
+2016-04-15 18:12:22 INFO  JenaMultipleABoxesStreamReader:80 - ABox 239:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ154.owl
+2016-04-15 18:12:25 INFO  JenaMultipleABoxesStreamReader:80 - ABox 240:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ498.owl
+2016-04-15 18:12:31 INFO  JenaMultipleABoxesStreamReader:80 - ABox 241:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ327.owl
+2016-04-15 18:12:34 INFO  JenaMultipleABoxesStreamReader:80 - ABox 242:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ14.owl
+2016-04-15 18:12:37 INFO  JenaMultipleABoxesStreamReader:80 - ABox 243:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ361.owl
+2016-04-15 18:12:40 INFO  JenaMultipleABoxesStreamReader:80 - ABox 244:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ57.owl
+2016-04-15 18:12:43 INFO  JenaMultipleABoxesStreamReader:80 - ABox 245:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ349.owl
+2016-04-15 18:12:46 INFO  JenaMultipleABoxesStreamReader:80 - ABox 246:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ306.owl
+2016-04-15 18:12:48 INFO  JenaMultipleABoxesStreamReader:80 - ABox 247:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ477.owl
+2016-04-15 18:12:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 248:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ434.owl
+2016-04-15 18:12:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 249:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ233.owl
+2016-04-15 18:12:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 250:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ182.owl
+2016-04-15 18:12:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 251:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ276.owl
+2016-04-15 18:13:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 252:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ440.owl
+2016-04-15 18:13:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 253:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ227.owl
+2016-04-15 18:13:06 INFO  JenaMultipleABoxesStreamReader:80 - ABox 254:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ29.owl
+2016-04-15 18:13:10 INFO  JenaMultipleABoxesStreamReader:80 - ABox 255:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ483.owl
+2016-04-15 18:13:13 INFO  JenaMultipleABoxesStreamReader:80 - ABox 256:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ20.owl
+2016-04-15 18:13:15 INFO  JenaMultipleABoxesStreamReader:80 - ABox 257:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ312.owl
+2016-04-15 18:13:17 INFO  JenaMultipleABoxesStreamReader:80 - ABox 258:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ38.owl
+2016-04-15 18:13:20 INFO  JenaMultipleABoxesStreamReader:80 - ABox 259:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ160.owl
+2016-04-15 18:13:26 INFO  JenaMultipleABoxesStreamReader:80 - ABox 260:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ54.owl
+2016-04-15 18:13:29 INFO  JenaMultipleABoxesStreamReader:80 - ABox 261:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ70.owl
+2016-04-15 18:13:32 INFO  JenaMultipleABoxesStreamReader:80 - ABox 262:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ62.owl
+2016-04-15 18:13:35 INFO  JenaMultipleABoxesStreamReader:80 - ABox 263:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ136.owl
+2016-04-15 18:13:38 INFO  JenaMultipleABoxesStreamReader:80 - ABox 264:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ411.owl
+2016-04-15 18:13:40 INFO  JenaMultipleABoxesStreamReader:80 - ABox 265:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ225.owl
+2016-04-15 18:13:43 INFO  JenaMultipleABoxesStreamReader:80 - ABox 266:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ314.owl
+2016-04-15 18:13:45 INFO  JenaMultipleABoxesStreamReader:80 - ABox 267:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ256.owl
+2016-04-15 18:13:48 INFO  JenaMultipleABoxesStreamReader:80 - ABox 268:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ442.owl
+2016-04-15 18:13:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 269:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ489.owl
+2016-04-15 18:13:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 270:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ167.owl
+2016-04-15 18:13:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 271:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ353.owl
+2016-04-15 18:14:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 272:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ403.owl
+2016-04-15 18:14:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 273:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ128.owl
+2016-04-15 18:14:06 INFO  JenaMultipleABoxesStreamReader:80 - ABox 274:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ175.owl
+2016-04-15 18:14:09 INFO  JenaMultipleABoxesStreamReader:80 - ABox 275:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ217.owl
+2016-04-15 18:14:11 INFO  JenaMultipleABoxesStreamReader:80 - ABox 276:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ450.owl
+2016-04-15 18:14:14 INFO  JenaMultipleABoxesStreamReader:80 - ABox 277:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ345.owl
+2016-04-15 18:14:16 INFO  JenaMultipleABoxesStreamReader:80 - ABox 278:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ23.owl
+2016-04-15 18:14:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 279:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ322.owl
+2016-04-15 18:14:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 280:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ248.owl
+2016-04-15 18:15:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 281:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ3.owl
+2016-04-15 18:15:05 INFO  JenaMultipleABoxesStreamReader:80 - ABox 282:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ272.owl
+2016-04-15 18:15:08 INFO  JenaMultipleABoxesStreamReader:80 - ABox 283:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ241.owl
+2016-04-15 18:15:10 INFO  JenaMultipleABoxesStreamReader:80 - ABox 284:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ329.owl
+2016-04-15 18:15:13 INFO  JenaMultipleABoxesStreamReader:80 - ABox 285:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ144.owl
+2016-04-15 18:15:15 INFO  JenaMultipleABoxesStreamReader:80 - ABox 286:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ426.owl
+2016-04-15 18:15:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 287:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ191.owl
+2016-04-15 18:15:21 INFO  JenaMultipleABoxesStreamReader:80 - ABox 288:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ85.owl
+2016-04-15 18:15:24 INFO  JenaMultipleABoxesStreamReader:80 - ABox 289:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ210.owl
+2016-04-15 18:15:27 INFO  JenaMultipleABoxesStreamReader:80 - ABox 290:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ296.owl
+2016-04-15 18:15:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 291:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ202.owl
+2016-04-15 18:15:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 292:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ121.owl
+2016-04-15 18:15:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 293:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ465.owl
+2016-04-15 18:15:38 INFO  JenaMultipleABoxesStreamReader:80 - ABox 294:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ490.owl
+2016-04-15 18:15:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 295:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ369.owl
+2016-04-15 18:15:45 INFO  JenaMultipleABoxesStreamReader:80 - ABox 296:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ77.owl
+2016-04-15 18:15:47 INFO  JenaMultipleABoxesStreamReader:80 - ABox 297:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ112.owl
+2016-04-15 18:15:50 INFO  JenaMultipleABoxesStreamReader:80 - ABox 298:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ473.owl
+2016-04-15 18:15:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 299:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ482.owl
+2016-04-15 18:16:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 300:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ69.owl
+2016-04-15 18:16:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 301:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ198.owl
+2016-04-15 18:16:05 INFO  JenaMultipleABoxesStreamReader:80 - ABox 302:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ384.owl
+2016-04-15 18:16:08 INFO  JenaMultipleABoxesStreamReader:80 - ABox 303:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ392.owl
+2016-04-15 18:16:11 INFO  JenaMultipleABoxesStreamReader:80 - ABox 304:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ209.owl
+2016-04-15 18:16:14 INFO  JenaMultipleABoxesStreamReader:80 - ABox 305:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ264.owl
+2016-04-15 18:16:17 INFO  JenaMultipleABoxesStreamReader:80 - ABox 306:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ281.owl
+2016-04-15 18:16:19 INFO  JenaMultipleABoxesStreamReader:80 - ABox 307:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ183.owl
+2016-04-15 18:16:22 INFO  JenaMultipleABoxesStreamReader:80 - ABox 308:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ337.owl
+2016-04-15 18:16:24 INFO  JenaMultipleABoxesStreamReader:80 - ABox 309:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ497.owl
+2016-04-15 18:16:27 INFO  JenaMultipleABoxesStreamReader:80 - ABox 310:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ330.owl
+2016-04-15 18:16:29 INFO  JenaMultipleABoxesStreamReader:80 - ABox 311:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ94.owl
+2016-04-15 18:16:31 INFO  JenaMultipleABoxesStreamReader:80 - ABox 312:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ15.owl
+2016-04-15 18:16:34 INFO  JenaMultipleABoxesStreamReader:80 - ABox 313:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ399.owl
+2016-04-15 18:16:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 314:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ435.owl
+2016-04-15 18:16:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 315:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ104.owl
+2016-04-15 18:16:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 316:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ418.owl
+2016-04-15 18:16:44 INFO  JenaMultipleABoxesStreamReader:80 - ABox 317:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ232.owl
+2016-04-15 18:16:48 INFO  JenaMultipleABoxesStreamReader:80 - ABox 318:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ288.owl
+2016-04-15 18:16:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 319:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ419.owl
+2016-04-15 18:16:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 320:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ151.owl
+2016-04-15 18:16:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 321:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ55.owl
+2016-04-15 18:17:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 322:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ224.owl
+2016-04-15 18:17:05 INFO  JenaMultipleABoxesStreamReader:80 - ABox 323:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ71.owl
+2016-04-15 18:17:07 INFO  JenaMultipleABoxesStreamReader:80 - ABox 324:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ443.owl
+2016-04-15 18:17:10 INFO  JenaMultipleABoxesStreamReader:80 - ABox 325:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ168.owl
+2016-04-15 18:17:13 INFO  JenaMultipleABoxesStreamReader:80 - ABox 326:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ119.owl
+2016-04-15 18:17:15 INFO  JenaMultipleABoxesStreamReader:80 - ABox 327:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ184.owl
+2016-04-15 18:17:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 328:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ370.owl
+2016-04-15 18:17:21 INFO  JenaMultipleABoxesStreamReader:80 - ABox 329:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ61.owl
+2016-04-15 18:17:23 INFO  JenaMultipleABoxesStreamReader:80 - ABox 330:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ22.owl
+2016-04-15 18:17:27 INFO  JenaMultipleABoxesStreamReader:80 - ABox 331:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ273.owl
+2016-04-15 18:17:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 332:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ208.owl
+2016-04-15 18:17:32 INFO  JenaMultipleABoxesStreamReader:80 - ABox 333:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ420.owl
+2016-04-15 18:17:35 INFO  JenaMultipleABoxesStreamReader:80 - ABox 334:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ145.owl
+2016-04-15 18:17:37 INFO  JenaMultipleABoxesStreamReader:80 - ABox 335:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ242.owl
+2016-04-15 18:17:40 INFO  JenaMultipleABoxesStreamReader:80 - ABox 336:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ425.owl
+2016-04-15 18:17:43 INFO  JenaMultipleABoxesStreamReader:80 - ABox 337:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ315.owl
+2016-04-15 18:17:45 INFO  JenaMultipleABoxesStreamReader:80 - ABox 338:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ218.owl
+2016-04-15 18:17:48 INFO  JenaMultipleABoxesStreamReader:80 - ABox 339:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ352.owl
+2016-04-15 18:17:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 340:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ86.owl
+2016-04-15 18:17:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 341:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ37.owl
+2016-04-15 18:17:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 342:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ174.owl
+2016-04-15 18:18:05 INFO  JenaMultipleABoxesStreamReader:80 - ABox 343:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ346.owl
+2016-04-15 18:18:08 INFO  JenaMultipleABoxesStreamReader:80 - ABox 344:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ321.owl
+2016-04-15 18:18:10 INFO  JenaMultipleABoxesStreamReader:80 - ABox 345:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ279.owl
+2016-04-15 18:18:13 INFO  JenaMultipleABoxesStreamReader:80 - ABox 346:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ409.owl
+2016-04-15 18:18:16 INFO  JenaMultipleABoxesStreamReader:80 - ABox 347:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ2.owl
+2016-04-15 18:18:19 INFO  JenaMultipleABoxesStreamReader:80 - ABox 348:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ457.owl
+2016-04-15 18:18:21 INFO  JenaMultipleABoxesStreamReader:80 - ABox 349:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ113.owl
+2016-04-15 18:18:24 INFO  JenaMultipleABoxesStreamReader:80 - ABox 350:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ385.owl
+2016-04-15 18:18:27 INFO  JenaMultipleABoxesStreamReader:80 - ABox 351:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ199.owl
+2016-04-15 18:18:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 352:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ474.owl
+2016-04-15 18:18:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 353:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ76.owl
+2016-04-15 18:18:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 354:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ16.owl
+2016-04-15 18:18:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 355:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ491.owl
+2016-04-15 18:18:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 356:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ93.owl
+2016-04-15 18:18:44 INFO  JenaMultipleABoxesStreamReader:80 - ABox 357:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ190.owl
+2016-04-15 18:18:47 INFO  JenaMultipleABoxesStreamReader:80 - ABox 358:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ458.owl
+2016-04-15 18:18:49 INFO  JenaMultipleABoxesStreamReader:80 - ABox 359:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ114.owl
+2016-04-15 18:18:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 360:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ295.owl
+2016-04-15 18:18:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 361:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ481.owl
+2016-04-15 18:18:58 INFO  JenaMultipleABoxesStreamReader:80 - ABox 362:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ203.owl
+2016-04-15 18:19:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 363:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ278.owl
+2016-04-15 18:19:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 364:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ464.owl
+2016-04-15 18:19:06 INFO  JenaMultipleABoxesStreamReader:80 - ABox 365:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ120.owl
+2016-04-15 18:19:13 INFO  JenaMultipleABoxesStreamReader:80 - ABox 366:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ189.owl
+2016-04-15 18:19:15 INFO  JenaMultipleABoxesStreamReader:80 - ABox 367:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ336.owl
+2016-04-15 18:19:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 368:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ331.owl
+2016-04-15 18:19:22 INFO  JenaMultipleABoxesStreamReader:80 - ABox 369:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ404.owl
+2016-04-15 18:19:24 INFO  JenaMultipleABoxesStreamReader:80 - ABox 370:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ103.owl
+2016-04-15 18:19:27 INFO  JenaMultipleABoxesStreamReader:80 - ABox 371:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ129.owl
+2016-04-15 18:19:29 INFO  JenaMultipleABoxesStreamReader:80 - ABox 372:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ391.owl
+2016-04-15 18:19:32 INFO  JenaMultipleABoxesStreamReader:80 - ABox 373:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ289.owl
+2016-04-15 18:19:34 INFO  JenaMultipleABoxesStreamReader:80 - ABox 374:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ257.owl
+2016-04-15 18:19:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 375:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ263.owl
+2016-04-15 18:19:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 376:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ410.owl
+2016-04-15 18:19:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 377:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ135.owl
+2016-04-15 18:19:45 INFO  JenaMultipleABoxesStreamReader:80 - ABox 378:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ496.owl
+2016-04-15 18:19:48 INFO  JenaMultipleABoxesStreamReader:80 - ABox 379:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ280.owl
+2016-04-15 18:19:50 INFO  JenaMultipleABoxesStreamReader:80 - ABox 380:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ152.owl
+2016-04-15 18:19:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 381:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ368.owl
+2016-04-15 18:19:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 382:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ258.owl
+2016-04-15 18:19:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 383:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ444.owl
+2016-04-15 18:20:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 384:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ215.owl
+2016-04-15 18:20:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 385:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ487.owl
+2016-04-15 18:20:07 INFO  JenaMultipleABoxesStreamReader:80 - ABox 386:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ401.owl
+2016-04-15 18:20:10 INFO  JenaMultipleABoxesStreamReader:80 - ABox 387:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ118.owl
+2016-04-15 18:20:13 INFO  JenaMultipleABoxesStreamReader:80 - ABox 388:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ223.owl
+2016-04-15 18:20:25 INFO  JenaMultipleABoxesStreamReader:80 - ABox 389:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ266.owl
+2016-04-15 18:20:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 390:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ452.owl
+2016-04-15 18:20:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 391:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ80.owl
+2016-04-15 18:20:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 392:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ339.owl
+2016-04-15 18:20:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 393:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ142.owl
+2016-04-15 18:20:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 394:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ495.owl
+2016-04-15 18:20:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 395:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ150.owl
+2016-04-15 18:20:45 INFO  JenaMultipleABoxesStreamReader:80 - ABox 396:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ185.owl
+2016-04-15 18:20:48 INFO  JenaMultipleABoxesStreamReader:80 - ABox 397:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ371.owl
+2016-04-15 18:20:50 INFO  JenaMultipleABoxesStreamReader:80 - ABox 398:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ48.owl
+2016-04-15 18:20:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 399:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ193.owl
+2016-04-15 18:20:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 400:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ87.owl
+2016-04-15 18:21:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 401:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ480.owl
+2016-04-15 18:21:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 402:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ60.owl
+2016-04-15 18:21:06 INFO  JenaMultipleABoxesStreamReader:80 - ABox 403:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ157.owl
+2016-04-15 18:21:09 INFO  JenaMultipleABoxesStreamReader:80 - ABox 404:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ138.owl
+2016-04-15 18:21:12 INFO  JenaMultipleABoxesStreamReader:80 - ABox 405:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ359.owl
+2016-04-15 18:21:14 INFO  JenaMultipleABoxesStreamReader:80 - ABox 406:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ394.owl
+2016-04-15 18:21:17 INFO  JenaMultipleABoxesStreamReader:80 - ABox 407:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ130.owl
+2016-04-15 18:21:19 INFO  JenaMultipleABoxesStreamReader:80 - ABox 408:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ316.owl
+2016-04-15 18:21:22 INFO  JenaMultipleABoxesStreamReader:80 - ABox 409:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ351.owl
+2016-04-15 18:21:24 INFO  JenaMultipleABoxesStreamReader:80 - ABox 410:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ72.owl
+2016-04-15 18:21:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 411:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ17.owl
+2016-04-15 18:21:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 412:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ270.owl
+2016-04-15 18:21:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 413:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ32.owl
+2016-04-15 18:21:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 414:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ75.owl
+2016-04-15 18:21:45 INFO  JenaMultipleABoxesStreamReader:80 - ABox 415:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ424.owl
+2016-04-15 18:21:48 INFO  JenaMultipleABoxesStreamReader:80 - ABox 416:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ467.owl
+2016-04-15 18:21:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 417:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ200.owl
+2016-04-15 18:21:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 418:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ459.owl
+2016-04-15 18:21:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 419:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ158.owl
+2016-04-15 18:22:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 420:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ243.owl
+2016-04-15 18:22:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 421:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ416.owl
+2016-04-15 18:22:05 INFO  JenaMultipleABoxesStreamReader:80 - ABox 422:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ115.owl
+2016-04-15 18:22:08 INFO  JenaMultipleABoxesStreamReader:80 - ABox 423:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ286.owl
+2016-04-15 18:22:10 INFO  JenaMultipleABoxesStreamReader:80 - ABox 424:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ239.owl
+2016-04-15 18:22:13 INFO  JenaMultipleABoxesStreamReader:80 - ABox 425:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ170.owl
+2016-04-15 18:22:16 INFO  JenaMultipleABoxesStreamReader:80 - ABox 426:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ251.owl
+2016-04-15 18:22:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 427:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ294.owl
+2016-04-15 18:22:21 INFO  JenaMultipleABoxesStreamReader:80 - ABox 428:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ123.owl
+2016-04-15 18:22:23 INFO  JenaMultipleABoxesStreamReader:80 - ABox 429:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ5.owl
+2016-04-15 18:22:25 INFO  JenaMultipleABoxesStreamReader:80 - ABox 430:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ166.owl
+2016-04-15 18:22:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 431:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ367.owl
+2016-04-15 18:22:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 432:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ88.owl
+2016-04-15 18:22:32 INFO  JenaMultipleABoxesStreamReader:80 - ABox 433:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ471.owl
+2016-04-15 18:22:35 INFO  JenaMultipleABoxesStreamReader:80 - ABox 434:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ300.owl
+2016-04-15 18:22:37 INFO  JenaMultipleABoxesStreamReader:80 - ABox 435:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ324.owl
+2016-04-15 18:22:40 INFO  JenaMultipleABoxesStreamReader:80 - ABox 436:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ45.owl
+2016-04-15 18:22:42 INFO  JenaMultipleABoxesStreamReader:80 - ABox 437:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ343.owl
+2016-04-15 18:22:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 438:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ386.owl
+2016-04-15 18:22:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 439:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ143.owl
+2016-04-15 18:23:00 INFO  JenaMultipleABoxesStreamReader:80 - ABox 440:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ186.owl
+2016-04-15 18:23:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 441:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ372.owl
+2016-04-15 18:23:06 INFO  JenaMultipleABoxesStreamReader:80 - ABox 442:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ109.owl
+2016-04-15 18:23:09 INFO  JenaMultipleABoxesStreamReader:80 - ABox 443:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ488.owl
+2016-04-15 18:23:12 INFO  JenaMultipleABoxesStreamReader:80 - ABox 444:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ259.owl
+2016-04-15 18:23:14 INFO  JenaMultipleABoxesStreamReader:80 - ABox 445:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ445.owl
+2016-04-15 18:23:17 INFO  JenaMultipleABoxesStreamReader:80 - ABox 446:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ47.owl
+2016-04-15 18:23:19 INFO  JenaMultipleABoxesStreamReader:80 - ABox 447:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ222.owl
+2016-04-15 18:23:22 INFO  JenaMultipleABoxesStreamReader:80 - ABox 448:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ265.owl
+2016-04-15 18:23:25 INFO  JenaMultipleABoxesStreamReader:80 - ABox 449:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ216.owl
+2016-04-15 18:23:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 450:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ402.owl
+2016-04-15 18:23:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 451:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ494.owl
+2016-04-15 18:23:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 452:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ10.owl
+2016-04-15 18:23:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 453:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ39.owl
+2016-04-15 18:23:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 454:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ451.owl
+2016-04-15 18:23:41 INFO  JenaMultipleABoxesStreamReader:80 - ABox 455:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ53.owl
+2016-04-15 18:23:44 INFO  JenaMultipleABoxesStreamReader:80 - ABox 456:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ96.owl
+2016-04-15 18:23:47 INFO  JenaMultipleABoxesStreamReader:80 - ABox 457:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ4.owl
+2016-04-15 18:23:49 INFO  JenaMultipleABoxesStreamReader:80 - ABox 458:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ137.owl
+2016-04-15 18:23:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 459:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ19.owl
+2016-04-15 18:24:02 INFO  JenaMultipleABoxesStreamReader:80 - ABox 460:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ30.owl
+2016-04-15 18:24:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 461:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ192.owl
+2016-04-15 18:24:07 INFO  JenaMultipleABoxesStreamReader:80 - ABox 462:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ73.owl
+2016-04-15 18:24:09 INFO  JenaMultipleABoxesStreamReader:80 - ABox 463:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ271.owl
+2016-04-15 18:24:11 INFO  JenaMultipleABoxesStreamReader:80 - ABox 464:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ439.owl
+2016-04-15 18:24:13 INFO  JenaMultipleABoxesStreamReader:80 - ABox 465:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ67.owl
+2016-04-15 18:24:17 INFO  JenaMultipleABoxesStreamReader:80 - ABox 466:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ24.owl
+2016-04-15 18:24:19 INFO  JenaMultipleABoxesStreamReader:80 - ABox 467:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ100.owl
+2016-04-15 18:24:22 INFO  JenaMultipleABoxesStreamReader:80 - ABox 468:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ317.owl
+2016-04-15 18:24:24 INFO  JenaMultipleABoxesStreamReader:80 - ABox 469:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ25.owl
+2016-04-15 18:24:27 INFO  JenaMultipleABoxesStreamReader:80 - ABox 470:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ466.owl
+2016-04-15 18:24:29 INFO  JenaMultipleABoxesStreamReader:80 - ABox 471:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ68.owl
+2016-04-15 18:24:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 472:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ201.owl
+2016-04-15 18:24:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 473:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ423.owl
+2016-04-15 18:24:38 INFO  JenaMultipleABoxesStreamReader:80 - ABox 474:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ244.owl
+2016-04-15 18:24:40 INFO  JenaMultipleABoxesStreamReader:80 - ABox 475:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ287.owl
+2016-04-15 18:24:43 INFO  JenaMultipleABoxesStreamReader:80 - ABox 476:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ350.owl
+2016-04-15 18:24:46 INFO  JenaMultipleABoxesStreamReader:80 - ABox 477:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ393.owl
+2016-04-15 18:24:49 INFO  JenaMultipleABoxesStreamReader:80 - ABox 478:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ238.owl
+2016-04-15 18:24:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 479:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ171.owl
+2016-04-15 18:24:54 INFO  JenaMultipleABoxesStreamReader:80 - ABox 480:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ472.owl
+2016-04-15 18:25:07 INFO  JenaMultipleABoxesStreamReader:80 - ABox 481:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ18.owl
+2016-04-15 18:25:09 INFO  JenaMultipleABoxesStreamReader:80 - ABox 482:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ301.owl
+2016-04-15 18:25:12 INFO  JenaMultipleABoxesStreamReader:80 - ABox 483:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ31.owl
+2016-04-15 18:25:15 INFO  JenaMultipleABoxesStreamReader:80 - ABox 484:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ74.owl
+2016-04-15 18:25:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 485:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ366.owl
+2016-04-15 18:25:20 INFO  JenaMultipleABoxesStreamReader:80 - ABox 486:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ323.owl
+2016-04-15 18:25:23 INFO  JenaMultipleABoxesStreamReader:80 - ABox 487:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ95.owl
+2016-04-15 18:25:25 INFO  JenaMultipleABoxesStreamReader:80 - ABox 488:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ344.owl
+2016-04-15 18:25:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 489:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ387.owl
+2016-04-15 18:25:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 490:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ52.owl
+2016-04-15 18:25:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 491:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ159.owl
+2016-04-15 18:25:35 INFO  JenaMultipleABoxesStreamReader:80 - ABox 492:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ116.owl
+2016-04-15 18:25:38 INFO  JenaMultipleABoxesStreamReader:80 - ABox 493:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ250.owl
+2016-04-15 18:25:41 INFO  JenaMultipleABoxesStreamReader:80 - ABox 494:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ417.owl
+2016-04-15 18:25:44 INFO  JenaMultipleABoxesStreamReader:80 - ABox 495:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ122.owl
+2016-04-15 18:25:56 INFO  JenaMultipleABoxesStreamReader:80 - ABox 496:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ293.owl
+2016-04-15 18:25:59 INFO  JenaMultipleABoxesStreamReader:80 - ABox 497:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ165.owl
+2016-04-15 18:26:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 498:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ338.owl
+2016-04-15 18:26:04 INFO  JenaMultipleABoxesStreamReader:80 - ABox 499:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ46.owl
+2016-04-15 18:26:06 INFO  JenaMultipleABoxesStreamReader:80 - ABox 500:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/univ89.owl
+2016-04-15 18:26:10 INFO  OntologyReaderTemplate:214 - ABoxList file:/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm500/aboxListUobmOx500.txt
+2016-04-15 18:26:10 INFO  OntologyReaderTemplate:215 - ABox statistic:
+2016-04-15 18:26:10 INFO  OntologyStatistic:47 - Statistic: Number_of_input_individuals = 12375804
+2016-04-15 18:26:10 INFO  OntologyStatistic:57 - Statistic: Number_of_input_concept_assertions = 21767000
+2016-04-15 18:26:10 INFO  OntologyStatistic:58 - Statistic: Number_of_input_role_assertions = 76607736
+2016-04-15 18:26:10 INFO  OntologyStatistic:59 - Statistic: Number_of_input_concept_and_role_assertions = 98374736
+2016-04-15 18:26:10 INFO  OntologyReaderTemplate:224 - Statistic: Time_loading_input_ontology_in_seconds = 1615
+2016-04-15 18:26:10 INFO  OrarCLI:158 - Info: DL Constructors in the validated ontology: [TRANSITIVITY, CONJUNCTION, UNIVERSAL_RESTRICTION, Horn_DISJUNCTION, HASVALUE, NOMINAL, MIN_CARDINALITY, EXISTENTIAL_RESTRICTION]
+2016-04-15 18:26:10 INFO  OrarCLI:124 - Run class orar.materializer.HornSHOIF.HornSHOIF_Materialization_Konclude
+2016-04-15 18:26:10 INFO  OrarCLI:141 - Runnig Abstraction Refinement Using :konclude ...
+2016-04-15 18:26:10 INFO  MaterializeTemplate:80 - Performing role reasoning ...
+2016-04-15 18:26:10 INFO  MaterializeTemplate:87 - First time computing deductive closure...
+2016-04-15 18:36:41 INFO  SemiNaiveRuleEngine:58 - Reasoning time for deductive closure computing in this step: 631
+2016-04-15 18:36:41 INFO  MaterializeTemplate:93 - Starting the abstraction refinement loop...
+2016-04-15 18:36:41 INFO  MaterializeTemplate:97 - Current loop: 1
+2016-04-15 18:36:41 INFO  MaterializeTemplate:109 - Computing types...
+2016-04-15 18:37:50 INFO  MaterializeTemplate:114 - Statistic: Current_loop = 1;Statistic: Number_of_types = 15521
+2016-04-15 18:37:50 INFO  MaterializeTemplate:126 - Generating abstractions ...
+2016-04-15 18:42:22 INFO  MaterializeTemplate:128 - Info:Number of abstraction ontolog(ies):1
+2016-04-15 18:42:22 INFO  MaterializeTemplate:141 - Statistic: Current_loop = 1;Statistic: Number_of_x = 15521
+2016-04-15 18:42:22 INFO  MaterializeTemplate:143 - Statistic: Current_loop = 1;Statistic: Number_of_u = 15521
+2016-04-15 18:42:22 INFO  MaterializeTemplate:146 - Statistic: Current_loop = 1;Statistic: Number_of_yz = 212231
+2016-04-15 18:42:22 INFO  MaterializeTemplate:151 - Statistic: Current_loop = 1;Statistic: Number_of_abstract_individuals_xuyz = 243273
+2016-04-15 18:42:22 INFO  MaterializeTemplate:164 - Statistic: Current_loop = 1;Statistic: Number_of_abstract_concept_assertions = 123578
+2016-04-15 18:42:22 INFO  MaterializeTemplate:166 - Statistic: Current_loop = 1;Statistic: Number_of_abstract_role_assertions = 212231
+2016-04-15 18:42:22 INFO  MaterializeTemplate:168 - Statistic: Current_loop = 1;Statistic: Number_of_abstract_concept_and_role_assertions = 335809
+2016-04-15 18:42:22 INFO  MaterializeTemplate:175 - Materializing the abstractions ...
+2016-04-15 18:42:22 INFO  MaterializeTemplate:186 - Info:Materializing (splitted) abstract ontology: 1
+2016-04-15 18:42:22 INFO  MaterializeTemplate:187 - Info:Size of the (splitted) abstract ontology: 335982
+2016-04-15 18:42:23 INFO  Konclude_HornSHOIF_InnerReasoner:122 - Orar Info: Konclude is started.
+2016-04-15 18:42:23 INFO  Konclude_HornSHOIF_InnerReasoner:123 - {info} 18:42:23:111 >> Starting Konclude ... 
+{info} 18:42:23:111 >> Konclude - Uni Ulm Parallel Reasoner
+{info} 18:42:23:111 >> Reasoner for the SROIQV(D) Description Logic, 64-bit, Version v0.6.2-544 - f07c265 (Oct 26 2015)
+
+{info} 18:42:23:113 >> Listening on port '9191'
+{info} 18:42:23:113 >> Initializing reasoner. Creating calculation context.
+{info} 18:42:23:115 >> Reasoner initialized with 1 processing unit(s).
+
+2016-04-15 18:42:23 INFO  Konclude_HornSHOIF_InnerReasoner:130 - Konclude has been started.
+2016-04-15 18:42:23 INFO  Konclude_HornSHOIF_InnerReasoner:195 - Connected to Konclude server at: http://localhost:9191
+2016-04-15 18:43:00 INFO  InnerReasonerTemplate:152 - Computing concept assertions.... 
+2016-04-15 18:43:26 INFO  InnerReasonerTemplate:154 - Computing role assertions.... 
+2016-04-15 18:43:42 INFO  InnerReasonerTemplate:156 - Computing sameas assertions.... 
+2016-04-15 18:43:43 INFO  Konclude_HornSHOIF_InnerReasoner:144 - Konclude server has been stoped.
+2016-04-15 18:43:43 INFO  MaterializeTemplate:211 - Transferring the entailments ...
+2016-04-15 18:49:00 INFO  MaterializeTemplate:223 - Computing deductive closure wrt new entailments ...
+2016-04-15 18:51:07 INFO  MaterializeTemplate:229 - Finish loop: 1
+2016-04-15 18:51:07 INFO  MaterializeTemplate:97 - Current loop: 2
+2016-04-15 18:51:07 INFO  MaterializeTemplate:109 - Computing types...
+2016-04-15 18:52:20 INFO  MaterializeTemplate:114 - Statistic: Current_loop = 2;Statistic: Number_of_types = 41814
+2016-04-15 18:52:20 INFO  MaterializeTemplate:126 - Generating abstractions ...
+2016-04-15 18:54:27 INFO  MaterializeTemplate:128 - Info:Number of abstraction ontolog(ies):1
+2016-04-15 18:54:27 INFO  MaterializeTemplate:141 - Statistic: Current_loop = 2;Statistic: Number_of_x = 41814
+2016-04-15 18:54:27 INFO  MaterializeTemplate:143 - Statistic: Current_loop = 2;Statistic: Number_of_u = 41814
+2016-04-15 18:54:27 INFO  MaterializeTemplate:146 - Statistic: Current_loop = 2;Statistic: Number_of_yz = 619264
+2016-04-15 18:54:27 INFO  MaterializeTemplate:151 - Statistic: Current_loop = 2;Statistic: Number_of_abstract_individuals_xuyz = 702892
+2016-04-15 18:54:27 INFO  MaterializeTemplate:164 - Statistic: Current_loop = 2;Statistic: Number_of_abstract_concept_assertions = 1216838
+2016-04-15 18:54:27 INFO  MaterializeTemplate:166 - Statistic: Current_loop = 2;Statistic: Number_of_abstract_role_assertions = 619264
+2016-04-15 18:54:27 INFO  MaterializeTemplate:168 - Statistic: Current_loop = 2;Statistic: Number_of_abstract_concept_and_role_assertions = 1836102
+2016-04-15 18:54:27 INFO  MaterializeTemplate:175 - Materializing the abstractions ...
+2016-04-15 18:54:27 INFO  MaterializeTemplate:186 - Info:Materializing (splitted) abstract ontology: 1
+2016-04-15 18:54:28 INFO  MaterializeTemplate:187 - Info:Size of the (splitted) abstract ontology: 1836275
+2016-04-15 18:54:28 INFO  Konclude_HornSHOIF_InnerReasoner:122 - Orar Info: Konclude is started.
+2016-04-15 18:54:28 INFO  Konclude_HornSHOIF_InnerReasoner:123 - {info} 18:54:28:317 >> Starting Konclude ... 
+{info} 18:54:28:317 >> Konclude - Uni Ulm Parallel Reasoner
+{info} 18:54:28:317 >> Reasoner for the SROIQV(D) Description Logic, 64-bit, Version v0.6.2-544 - f07c265 (Oct 26 2015)
+
+{info} 18:54:28:320 >> Listening on port '9191'
+{info} 18:54:28:320 >> Initializing reasoner. Creating calculation context.
+{info} 18:54:28:321 >> Reasoner initialized with 1 processing unit(s).
+
+2016-04-15 18:54:28 INFO  Konclude_HornSHOIF_InnerReasoner:130 - Konclude has been started.
+2016-04-15 18:54:28 INFO  Konclude_HornSHOIF_InnerReasoner:195 - Connected to Konclude server at: http://localhost:9191
+2016-04-15 18:57:46 INFO  InnerReasonerTemplate:152 - Computing concept assertions.... 
+2016-04-15 18:58:51 INFO  InnerReasonerTemplate:154 - Computing role assertions.... 
+2016-04-15 18:59:22 INFO  InnerReasonerTemplate:156 - Computing sameas assertions.... 
+2016-04-15 18:59:23 INFO  Konclude_HornSHOIF_InnerReasoner:144 - Konclude server has been stoped.
+2016-04-15 18:59:23 INFO  MaterializeTemplate:211 - Transferring the entailments ...
+2016-04-15 19:03:49 INFO  MaterializeTemplate:223 - Computing deductive closure wrt new entailments ...
+2016-04-15 19:03:50 INFO  MaterializeTemplate:229 - Finish loop: 2
+2016-04-15 19:03:50 INFO  MaterializeTemplate:97 - Current loop: 3
+2016-04-15 19:03:50 INFO  MaterializeTemplate:109 - Computing types...
+2016-04-15 19:05:02 INFO  MaterializeTemplate:114 - Statistic: Current_loop = 3;Statistic: Number_of_types = 12209
+2016-04-15 19:05:02 INFO  MaterializeTemplate:126 - Generating abstractions ...
+2016-04-15 19:07:27 INFO  MaterializeTemplate:128 - Info:Number of abstraction ontolog(ies):1
+2016-04-15 19:07:27 INFO  MaterializeTemplate:141 - Statistic: Current_loop = 3;Statistic: Number_of_x = 12209
+2016-04-15 19:07:27 INFO  MaterializeTemplate:143 - Statistic: Current_loop = 3;Statistic: Number_of_u = 12209
+2016-04-15 19:07:27 INFO  MaterializeTemplate:146 - Statistic: Current_loop = 3;Statistic: Number_of_yz = 178731
+2016-04-15 19:07:27 INFO  MaterializeTemplate:151 - Statistic: Current_loop = 3;Statistic: Number_of_abstract_individuals_xuyz = 203149
+2016-04-15 19:07:27 INFO  MaterializeTemplate:164 - Statistic: Current_loop = 3;Statistic: Number_of_abstract_concept_assertions = 389768
+2016-04-15 19:07:27 INFO  MaterializeTemplate:166 - Statistic: Current_loop = 3;Statistic: Number_of_abstract_role_assertions = 178731
+2016-04-15 19:07:27 INFO  MaterializeTemplate:168 - Statistic: Current_loop = 3;Statistic: Number_of_abstract_concept_and_role_assertions = 568499
+2016-04-15 19:07:27 INFO  MaterializeTemplate:175 - Materializing the abstractions ...
+2016-04-15 19:07:27 INFO  MaterializeTemplate:186 - Info:Materializing (splitted) abstract ontology: 1
+2016-04-15 19:07:27 INFO  MaterializeTemplate:187 - Info:Size of the (splitted) abstract ontology: 568672
+2016-04-15 19:07:27 INFO  Konclude_HornSHOIF_InnerReasoner:122 - Orar Info: Konclude is started.
+2016-04-15 19:07:27 INFO  Konclude_HornSHOIF_InnerReasoner:123 - {info} 19:07:27:858 >> Starting Konclude ... 
+{info} 19:07:27:858 >> Konclude - Uni Ulm Parallel Reasoner
+{info} 19:07:27:858 >> Reasoner for the SROIQV(D) Description Logic, 64-bit, Version v0.6.2-544 - f07c265 (Oct 26 2015)
+
+{info} 19:07:27:878 >> Initializing reasoner. Creating calculation context.
+{info} 19:07:27:878 >> Listening on port '9191'
+{info} 19:07:27:879 >> Reasoner initialized with 1 processing unit(s).
+
+2016-04-15 19:07:27 INFO  Konclude_HornSHOIF_InnerReasoner:130 - Konclude has been started.
+2016-04-15 19:07:27 INFO  Konclude_HornSHOIF_InnerReasoner:195 - Connected to Konclude server at: http://localhost:9191
+2016-04-15 19:08:07 INFO  InnerReasonerTemplate:152 - Computing concept assertions.... 
+2016-04-15 19:08:32 INFO  InnerReasonerTemplate:154 - Computing role assertions.... 
+2016-04-15 19:08:46 INFO  InnerReasonerTemplate:156 - Computing sameas assertions.... 
+2016-04-15 19:08:47 INFO  Konclude_HornSHOIF_InnerReasoner:144 - Konclude server has been stoped.
+2016-04-15 19:08:47 INFO  MaterializeTemplate:211 - Transferring the entailments ...
+2016-04-15 19:15:58 INFO  MaterializeTemplate:223 - Computing deductive closure wrt new entailments ...
+2016-04-15 19:15:58 INFO  MaterializeTemplate:229 - Finish loop: 3
+2016-04-15 19:15:58 INFO  MaterializeTemplate:97 - Current loop: 4
+2016-04-15 19:15:58 INFO  MaterializeTemplate:109 - Computing types...
+2016-04-15 19:17:25 INFO  MaterializeTemplate:114 - Statistic: Current_loop = 4;Statistic: Number_of_types = 12209
+2016-04-15 19:17:25 INFO  MaterializeTemplate:126 - Generating abstractions ...
+2016-04-15 19:20:11 INFO  MaterializeTemplate:128 - Info:Number of abstraction ontolog(ies):1
+2016-04-15 19:20:11 INFO  MaterializeTemplate:141 - Statistic: Current_loop = 4;Statistic: Number_of_x = 12209
+2016-04-15 19:20:11 INFO  MaterializeTemplate:143 - Statistic: Current_loop = 4;Statistic: Number_of_u = 12209
+2016-04-15 19:20:11 INFO  MaterializeTemplate:146 - Statistic: Current_loop = 4;Statistic: Number_of_yz = 178731
+2016-04-15 19:20:11 INFO  MaterializeTemplate:151 - Statistic: Current_loop = 4;Statistic: Number_of_abstract_individuals_xuyz = 203149
+2016-04-15 19:20:11 INFO  MaterializeTemplate:164 - Statistic: Current_loop = 4;Statistic: Number_of_abstract_concept_assertions = 389768
+2016-04-15 19:20:11 INFO  MaterializeTemplate:166 - Statistic: Current_loop = 4;Statistic: Number_of_abstract_role_assertions = 178731
+2016-04-15 19:20:11 INFO  MaterializeTemplate:168 - Statistic: Current_loop = 4;Statistic: Number_of_abstract_concept_and_role_assertions = 568499
+2016-04-15 19:20:11 INFO  MaterializeTemplate:175 - Materializing the abstractions ...
+2016-04-15 19:20:11 INFO  MaterializeTemplate:186 - Info:Materializing (splitted) abstract ontology: 1
+2016-04-15 19:20:11 INFO  MaterializeTemplate:187 - Info:Size of the (splitted) abstract ontology: 568672
+2016-04-15 19:20:11 INFO  Konclude_HornSHOIF_InnerReasoner:122 - Orar Info: Konclude is started.
+2016-04-15 19:20:11 INFO  Konclude_HornSHOIF_InnerReasoner:123 - {info} 19:20:11:410 >> Starting Konclude ... 
+{info} 19:20:11:410 >> Konclude - Uni Ulm Parallel Reasoner
+{info} 19:20:11:410 >> Reasoner for the SROIQV(D) Description Logic, 64-bit, Version v0.6.2-544 - f07c265 (Oct 26 2015)
+
+{info} 19:20:11:413 >> Listening on port '9191'
+{info} 19:20:11:414 >> Initializing reasoner. Creating calculation context.
+{info} 19:20:11:415 >> Reasoner initialized with 1 processing unit(s).
+
+2016-04-15 19:20:11 INFO  Konclude_HornSHOIF_InnerReasoner:130 - Konclude has been started.
+2016-04-15 19:20:11 INFO  Konclude_HornSHOIF_InnerReasoner:195 - Connected to Konclude server at: http://localhost:9191
+2016-04-15 19:20:43 INFO  InnerReasonerTemplate:152 - Computing concept assertions.... 
+2016-04-15 19:21:05 INFO  InnerReasonerTemplate:154 - Computing role assertions.... 
+2016-04-15 19:21:15 INFO  InnerReasonerTemplate:156 - Computing sameas assertions.... 
+2016-04-15 19:21:17 INFO  Konclude_HornSHOIF_InnerReasoner:144 - Konclude server has been stoped.
+2016-04-15 19:21:17 INFO  MaterializeTemplate:211 - Transferring the entailments ...
+2016-04-15 19:27:46 INFO  MaterializeTemplate:229 - Finish loop: 4
+2016-04-15 19:27:46 INFO  MaterializeTemplate:235 - Statistic: Number_of_refinement_steps = 3
+2016-04-15 19:27:46 INFO  MaterializeTemplate:243 - Statistic: Time_reasoning_using_abstraction_in_seconds = 3696
+2016-04-15 19:27:55 INFO  MaterializeTemplate:250 - Statistic: Number_of_materialized_concept_assertions = 78548735
+2016-04-15 19:27:55 INFO  MaterializeTemplate:251 - Statistic: Number_of_materialized_role_assertions = 141342591
+2016-04-15 19:27:55 INFO  MaterializeTemplate:252 - Statistic: Number_of_materialized_concept_and_role_assertions = 219891326

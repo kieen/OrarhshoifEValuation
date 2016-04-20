@@ -16,8 +16,8 @@ def printLatexHeaderAbstractionInfo(fileName):
         aFile.write(r'  &\multicolumn{4}{c||}{First Abstraction}      ' + "\n")
         aFile.write(r'  &\multicolumn{4}{c|}{Last Abstraction}\\     ' + "\n")            
         aFile.write(r' Ontology & steps     ' + "\n")
-        aFile.write(r' &\#\,types &\#\,indiv.&\#\,assert.&\%\,assert.      ' + "\n")
-        aFile.write(r' &\#\,types &\#\,indiv.&\#\,assert.&\%\,assert.\\      ' + "\n")
+        aFile.write(r' &\#\,types &\#\,indiv.&\#\,ast.&\%\,ast.      ' + "\n")
+        aFile.write(r' &\#\,types &\#\,indiv.&\#\,ast.&\%\,ast.\\      ' + "\n")
         aFile.write(r' \hline    ' + "\n")           
 
 

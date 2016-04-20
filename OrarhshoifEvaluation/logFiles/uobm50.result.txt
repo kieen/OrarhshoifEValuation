@@ -1,0 +1,218 @@
+2016-04-18 10:23:16 INFO  OrarCLI:120 - Run abstraction with konclude
+2016-04-18 10:23:17 INFO  OntologyReaderTemplate:122 - Using OWLAPI to read the ontology:/var/tmp/kien/iswc16benchmark/ontologies/uobm_origintbox_withprefix_of_oxfordabox/uobmtbox_origin_workwith_oxford_generator.owl ...
+2016-04-18 10:23:17 INFO  OntologyReaderTemplate:127 - Information of the input ontology.
+2016-04-18 10:23:17 INFO  OntologyReaderTemplate:128 - Ontology file:/var/tmp/kien/iswc16benchmark/ontologies/uobm_origintbox_withprefix_of_oxfordabox/uobmtbox_origin_workwith_oxford_generator.owl
+2016-04-18 10:23:17 INFO  OntologyStatistic:63 - ===Ontology===
+2016-04-18 10:23:17 INFO  OntologyStatistic:67 - Statistic: Number_of_TBox_Axioms = 150
+2016-04-18 10:23:17 INFO  OntologyStatistic:68 - Statistic: Number_of_input_concept_names = 69
+2016-04-18 10:23:17 INFO  OntologyStatistic:69 - Statistic: Number_of_input_role_names = 35
+2016-04-18 10:23:17 INFO  OntologyStatistic:72 - Statistic: Number_of_input_individuals = 58
+2016-04-18 10:23:17 INFO  OntologyStatistic:82 - Statistic: Number_of_input_concept_assertions = 58
+2016-04-18 10:23:17 INFO  OntologyStatistic:83 - Statistic: Number_of_input_role_assertions = 0
+2016-04-18 10:23:17 INFO  OntologyStatistic:84 - Statistic: Number_of_input_concept_and_role_assertions = 58
+2016-04-18 10:23:17 INFO  NormalizerTemplate:215 - Normalizing the input ontology...
+2016-04-18 10:23:17 INFO  NormalizerTemplate:225 - Finished normalizing TBox of the input ontology.
+2016-04-18 10:23:17 INFO  TransitivityNormalizerWithHermit:66 - Size of Tbox:18
+2016-04-18 10:23:17 INFO  TransitivityNormalizerWithHermit:79 - Normalizing transitivity...
+2016-04-18 10:23:18 INFO  TransitivityNormalizerWithHermit:91 - Finished normalizing transitivity.
+2016-04-18 10:23:18 INFO  OntologyReaderTemplate:105 - Statistic: Time_loading_input_ontology_in_seconds = 0
+2016-04-18 10:23:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 1:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ8.owl
+2016-04-18 10:23:26 INFO  JenaMultipleABoxesStreamReader:80 - ABox 2:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ26.owl
+2016-04-18 10:23:32 INFO  JenaMultipleABoxesStreamReader:80 - ABox 3:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ40.owl
+2016-04-18 10:23:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 4:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ28.owl
+2016-04-18 10:23:45 INFO  JenaMultipleABoxesStreamReader:80 - ABox 5:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ1.owl
+2016-04-18 10:23:51 INFO  JenaMultipleABoxesStreamReader:80 - ABox 6:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ39.owl
+2016-04-18 10:23:55 INFO  JenaMultipleABoxesStreamReader:80 - ABox 7:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ44.owl
+2016-04-18 10:24:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 8:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ2.owl
+2016-04-18 10:24:06 INFO  JenaMultipleABoxesStreamReader:80 - ABox 9:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ18.owl
+2016-04-18 10:24:11 INFO  JenaMultipleABoxesStreamReader:80 - ABox 10:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ21.owl
+2016-04-18 10:24:16 INFO  JenaMultipleABoxesStreamReader:80 - ABox 11:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ0.owl
+2016-04-18 10:24:21 INFO  JenaMultipleABoxesStreamReader:80 - ABox 12:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ49.owl
+2016-04-18 10:24:25 INFO  JenaMultipleABoxesStreamReader:80 - ABox 13:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ15.owl
+2016-04-18 10:24:31 INFO  JenaMultipleABoxesStreamReader:80 - ABox 14:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ24.owl
+2016-04-18 10:24:36 INFO  JenaMultipleABoxesStreamReader:80 - ABox 15:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ33.owl
+2016-04-18 10:24:40 INFO  JenaMultipleABoxesStreamReader:80 - ABox 16:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ35.owl
+2016-04-18 10:24:46 INFO  JenaMultipleABoxesStreamReader:80 - ABox 17:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ31.owl
+2016-04-18 10:24:52 INFO  JenaMultipleABoxesStreamReader:80 - ABox 18:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ12.owl
+2016-04-18 10:24:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 19:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ19.owl
+2016-04-18 10:25:03 INFO  JenaMultipleABoxesStreamReader:80 - ABox 20:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ7.owl
+2016-04-18 10:25:08 INFO  JenaMultipleABoxesStreamReader:80 - ABox 21:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ25.owl
+2016-04-18 10:25:12 INFO  JenaMultipleABoxesStreamReader:80 - ABox 22:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ14.owl
+2016-04-18 10:25:17 INFO  JenaMultipleABoxesStreamReader:80 - ABox 23:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ43.owl
+2016-04-18 10:25:22 INFO  JenaMultipleABoxesStreamReader:80 - ABox 24:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ20.owl
+2016-04-18 10:25:26 INFO  JenaMultipleABoxesStreamReader:80 - ABox 25:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ3.owl
+2016-04-18 10:25:32 INFO  JenaMultipleABoxesStreamReader:80 - ABox 26:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ13.owl
+2016-04-18 10:25:38 INFO  JenaMultipleABoxesStreamReader:80 - ABox 27:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ23.owl
+2016-04-18 10:26:05 INFO  JenaMultipleABoxesStreamReader:80 - ABox 28:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ10.owl
+2016-04-18 10:26:10 INFO  JenaMultipleABoxesStreamReader:80 - ABox 29:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ38.owl
+2016-04-18 10:26:14 INFO  JenaMultipleABoxesStreamReader:80 - ABox 30:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ41.owl
+2016-04-18 10:26:19 INFO  JenaMultipleABoxesStreamReader:80 - ABox 31:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ42.owl
+2016-04-18 10:26:25 INFO  JenaMultipleABoxesStreamReader:80 - ABox 32:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ47.owl
+2016-04-18 10:26:28 INFO  JenaMultipleABoxesStreamReader:80 - ABox 33:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ27.owl
+2016-04-18 10:26:33 INFO  JenaMultipleABoxesStreamReader:80 - ABox 34:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ48.owl
+2016-04-18 10:26:53 INFO  JenaMultipleABoxesStreamReader:80 - ABox 35:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ4.owl
+2016-04-18 10:26:57 INFO  JenaMultipleABoxesStreamReader:80 - ABox 36:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ9.owl
+2016-04-18 10:27:01 INFO  JenaMultipleABoxesStreamReader:80 - ABox 37:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ6.owl
+2016-04-18 10:27:05 INFO  JenaMultipleABoxesStreamReader:80 - ABox 38:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ29.owl
+2016-04-18 10:27:11 INFO  JenaMultipleABoxesStreamReader:80 - ABox 39:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ36.owl
+2016-04-18 10:27:16 INFO  JenaMultipleABoxesStreamReader:80 - ABox 40:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ11.owl
+2016-04-18 10:27:22 INFO  JenaMultipleABoxesStreamReader:80 - ABox 41:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ46.owl
+2016-04-18 10:27:26 INFO  JenaMultipleABoxesStreamReader:80 - ABox 42:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ32.owl
+2016-04-18 10:28:07 INFO  JenaMultipleABoxesStreamReader:80 - ABox 43:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ16.owl
+2016-04-18 10:28:13 INFO  JenaMultipleABoxesStreamReader:80 - ABox 44:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ22.owl
+2016-04-18 10:28:18 INFO  JenaMultipleABoxesStreamReader:80 - ABox 45:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ45.owl
+2016-04-18 10:28:22 INFO  JenaMultipleABoxesStreamReader:80 - ABox 46:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ37.owl
+2016-04-18 10:28:27 INFO  JenaMultipleABoxesStreamReader:80 - ABox 47:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ30.owl
+2016-04-18 10:28:30 INFO  JenaMultipleABoxesStreamReader:80 - ABox 48:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ5.owl
+2016-04-18 10:28:34 INFO  JenaMultipleABoxesStreamReader:80 - ABox 49:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ17.owl
+2016-04-18 10:28:39 INFO  JenaMultipleABoxesStreamReader:80 - ABox 50:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/univ34.owl
+2016-04-18 10:28:47 INFO  OntologyReaderTemplate:214 - ABoxList file:/var/tmp/kien/iswc16benchmark/ontologies/uobm_oxford/uobm50/aboxListUobmOx50.txt
+2016-04-18 10:28:47 INFO  OntologyReaderTemplate:215 - ABox statistic:
+2016-04-18 10:28:47 INFO  OntologyStatistic:47 - Statistic: Number_of_input_individuals = 1227123
+2016-04-18 10:28:47 INFO  OntologyStatistic:57 - Statistic: Number_of_input_concept_assertions = 2157229
+2016-04-18 10:28:47 INFO  OntologyStatistic:58 - Statistic: Number_of_input_role_assertions = 7594496
+2016-04-18 10:28:47 INFO  OntologyStatistic:59 - Statistic: Number_of_input_concept_and_role_assertions = 9751725
+2016-04-18 10:28:47 INFO  OntologyReaderTemplate:224 - Statistic: Time_loading_input_ontology_in_seconds = 330
+2016-04-18 10:28:47 INFO  OrarCLI:158 - Info: DL Constructors in the validated ontology: [UNIVERSAL_RESTRICTION, TRANSITIVITY, HASVALUE, NOMINAL, MIN_CARDINALITY, EXISTENTIAL_RESTRICTION, Horn_DISJUNCTION, CONJUNCTION]
+2016-04-18 10:28:47 INFO  OrarCLI:124 - Run class orar.materializer.HornSHOIF.HornSHOIF_Materialization_Konclude
+2016-04-18 10:28:47 INFO  OrarCLI:141 - Runnig Abstraction Refinement Using :konclude ...
+2016-04-18 10:28:47 INFO  MaterializeTemplate:80 - Performing role reasoning ...
+2016-04-18 10:28:47 INFO  MaterializeTemplate:87 - First time computing deductive closure...
+2016-04-18 10:36:25 INFO  SemiNaiveRuleEngine:58 - Reasoning time for deductive closure computing in this step: 458
+2016-04-18 10:36:25 INFO  MaterializeTemplate:93 - Starting the abstraction refinement loop...
+2016-04-18 10:36:25 INFO  MaterializeTemplate:101 - Current loop: 1
+2016-04-18 10:36:25 INFO  MaterializeTemplate:113 - Computing types...
+2016-04-18 10:36:32 INFO  MaterializeTemplate:128 - Statistic: Current_loop = 1;Statistic: Number_of_types = 8205
+2016-04-18 10:36:32 INFO  MaterializeTemplate:140 - Generating abstractions ...
+2016-04-18 10:37:11 INFO  MaterializeTemplate:142 - Info:Number of abstraction ontolog(ies):1
+2016-04-18 10:37:11 INFO  MaterializeTemplate:155 - Statistic: Current_loop = 1;Statistic: Number_of_x = 8205
+2016-04-18 10:37:11 INFO  MaterializeTemplate:157 - Statistic: Current_loop = 1;Statistic: Number_of_u = 8205
+2016-04-18 10:37:11 INFO  MaterializeTemplate:160 - Statistic: Current_loop = 1;Statistic: Number_of_yz = 110089
+2016-04-18 10:37:11 INFO  MaterializeTemplate:165 - Statistic: Current_loop = 1;Statistic: Number_of_abstract_individuals_xuyz = 126499
+2016-04-18 10:37:11 INFO  MaterializeTemplate:178 - Statistic: Current_loop = 1;Statistic: Number_of_abstract_concept_assertions = 62538
+2016-04-18 10:37:11 INFO  MaterializeTemplate:180 - Statistic: Current_loop = 1;Statistic: Number_of_abstract_role_assertions = 110089
+2016-04-18 10:37:11 INFO  MaterializeTemplate:182 - Statistic: Current_loop = 1;Statistic: Number_of_abstract_concept_and_role_assertions = 172627
+2016-04-18 10:37:11 INFO  MaterializeTemplate:189 - Materializing the abstractions ...
+2016-04-18 10:37:11 INFO  MaterializeTemplate:200 - Info:Materializing (splitted) abstract ontology: 1
+2016-04-18 10:37:11 INFO  MaterializeTemplate:201 - Info:Size of the (splitted) abstract ontology: 172800
+2016-04-18 10:37:12 INFO  Konclude_HornSHOIF_InnerReasoner:122 - Orar Info: Konclude is started.
+2016-04-18 10:37:12 INFO  Konclude_HornSHOIF_InnerReasoner:123 - {info} 10:37:12:050 >> Starting Konclude ... 
+{info} 10:37:12:050 >> Konclude - Uni Ulm Parallel Reasoner
+{info} 10:37:12:050 >> Reasoner for the SROIQV(D) Description Logic, 64-bit, Version v0.6.2-544 - f07c265 (Oct 26 2015)
+
+{info} 10:37:12:062 >> Listening on port '9191'
+{info} 10:37:12:066 >> Initializing reasoner. Creating calculation context.
+{info} 10:37:12:071 >> Reasoner initialized with 1 processing unit(s).
+
+2016-04-18 10:37:12 INFO  Konclude_HornSHOIF_InnerReasoner:130 - Konclude has been started.
+2016-04-18 10:37:12 INFO  Konclude_HornSHOIF_InnerReasoner:195 - Connected to Konclude server at: http://localhost:9191
+2016-04-18 10:37:28 INFO  InnerReasonerTemplate:152 - Computing concept assertions.... 
+2016-04-18 10:37:44 INFO  InnerReasonerTemplate:154 - Computing role assertions.... 
+2016-04-18 10:37:49 INFO  InnerReasonerTemplate:156 - Computing sameas assertions.... 
+2016-04-18 10:37:51 INFO  Konclude_HornSHOIF_InnerReasoner:144 - Konclude server has been stoped.
+2016-04-18 10:37:51 INFO  MaterializeTemplate:225 - Transferring the entailments ...
+2016-04-18 10:38:19 INFO  MaterializeTemplate:237 - Computing deductive closure wrt new entailments ...
+2016-04-18 10:42:07 INFO  MaterializeTemplate:243 - Finish loop: 1
+2016-04-18 10:42:07 INFO  MaterializeTemplate:101 - Current loop: 2
+2016-04-18 10:42:07 INFO  MaterializeTemplate:113 - Computing types...
+2016-04-18 10:42:15 INFO  MaterializeTemplate:128 - Statistic: Current_loop = 2;Statistic: Number_of_types = 18674
+2016-04-18 10:42:15 INFO  MaterializeTemplate:140 - Generating abstractions ...
+2016-04-18 10:42:33 INFO  MaterializeTemplate:142 - Info:Number of abstraction ontolog(ies):1
+2016-04-18 10:42:33 INFO  MaterializeTemplate:155 - Statistic: Current_loop = 2;Statistic: Number_of_x = 18674
+2016-04-18 10:42:33 INFO  MaterializeTemplate:157 - Statistic: Current_loop = 2;Statistic: Number_of_u = 18674
+2016-04-18 10:42:33 INFO  MaterializeTemplate:160 - Statistic: Current_loop = 2;Statistic: Number_of_yz = 271460
+2016-04-18 10:42:33 INFO  MaterializeTemplate:165 - Statistic: Current_loop = 2;Statistic: Number_of_abstract_individuals_xuyz = 308808
+2016-04-18 10:42:33 INFO  MaterializeTemplate:178 - Statistic: Current_loop = 2;Statistic: Number_of_abstract_concept_assertions = 509470
+2016-04-18 10:42:33 INFO  MaterializeTemplate:180 - Statistic: Current_loop = 2;Statistic: Number_of_abstract_role_assertions = 271460
+2016-04-18 10:42:33 INFO  MaterializeTemplate:182 - Statistic: Current_loop = 2;Statistic: Number_of_abstract_concept_and_role_assertions = 780930
+2016-04-18 10:42:33 INFO  MaterializeTemplate:189 - Materializing the abstractions ...
+2016-04-18 10:42:33 INFO  MaterializeTemplate:200 - Info:Materializing (splitted) abstract ontology: 1
+2016-04-18 10:42:33 INFO  MaterializeTemplate:201 - Info:Size of the (splitted) abstract ontology: 781103
+2016-04-18 10:42:33 INFO  Konclude_HornSHOIF_InnerReasoner:122 - Orar Info: Konclude is started.
+2016-04-18 10:42:33 INFO  Konclude_HornSHOIF_InnerReasoner:123 - {info} 10:42:33:683 >> Starting Konclude ... 
+{info} 10:42:33:683 >> Konclude - Uni Ulm Parallel Reasoner
+{info} 10:42:33:683 >> Reasoner for the SROIQV(D) Description Logic, 64-bit, Version v0.6.2-544 - f07c265 (Oct 26 2015)
+
+{info} 10:42:33:685 >> Initializing reasoner. Creating calculation context.
+{info} 10:42:33:685 >> Listening on port '9191'
+{info} 10:42:33:686 >> Reasoner initialized with 1 processing unit(s).
+
+2016-04-18 10:42:33 INFO  Konclude_HornSHOIF_InnerReasoner:130 - Konclude has been started.
+2016-04-18 10:42:33 INFO  Konclude_HornSHOIF_InnerReasoner:195 - Connected to Konclude server at: http://localhost:9191
+2016-04-18 10:43:28 INFO  InnerReasonerTemplate:152 - Computing concept assertions.... 
+2016-04-18 10:44:02 INFO  InnerReasonerTemplate:154 - Computing role assertions.... 
+2016-04-18 10:44:27 INFO  InnerReasonerTemplate:156 - Computing sameas assertions.... 
+2016-04-18 10:44:53 INFO  Konclude_HornSHOIF_InnerReasoner:144 - Konclude server has been stoped.
+2016-04-18 10:44:53 INFO  MaterializeTemplate:225 - Transferring the entailments ...
+2016-04-18 10:45:24 INFO  MaterializeTemplate:237 - Computing deductive closure wrt new entailments ...
+2016-04-18 10:45:26 INFO  MaterializeTemplate:243 - Finish loop: 2
+2016-04-18 10:45:26 INFO  MaterializeTemplate:101 - Current loop: 3
+2016-04-18 10:45:26 INFO  MaterializeTemplate:113 - Computing types...
+2016-04-18 10:45:38 INFO  MaterializeTemplate:128 - Statistic: Current_loop = 3;Statistic: Number_of_types = 7726
+2016-04-18 10:45:38 INFO  MaterializeTemplate:140 - Generating abstractions ...
+2016-04-18 10:45:57 INFO  MaterializeTemplate:142 - Info:Number of abstraction ontolog(ies):1
+2016-04-18 10:45:57 INFO  MaterializeTemplate:155 - Statistic: Current_loop = 3;Statistic: Number_of_x = 7726
+2016-04-18 10:45:57 INFO  MaterializeTemplate:157 - Statistic: Current_loop = 3;Statistic: Number_of_u = 7726
+2016-04-18 10:45:57 INFO  MaterializeTemplate:160 - Statistic: Current_loop = 3;Statistic: Number_of_yz = 112436
+2016-04-18 10:45:57 INFO  MaterializeTemplate:165 - Statistic: Current_loop = 3;Statistic: Number_of_abstract_individuals_xuyz = 127888
+2016-04-18 10:45:57 INFO  MaterializeTemplate:178 - Statistic: Current_loop = 3;Statistic: Number_of_abstract_concept_assertions = 236418
+2016-04-18 10:45:57 INFO  MaterializeTemplate:180 - Statistic: Current_loop = 3;Statistic: Number_of_abstract_role_assertions = 112436
+2016-04-18 10:45:57 INFO  MaterializeTemplate:182 - Statistic: Current_loop = 3;Statistic: Number_of_abstract_concept_and_role_assertions = 348854
+2016-04-18 10:45:57 INFO  MaterializeTemplate:189 - Materializing the abstractions ...
+2016-04-18 10:45:57 INFO  MaterializeTemplate:200 - Info:Materializing (splitted) abstract ontology: 1
+2016-04-18 10:45:57 INFO  MaterializeTemplate:201 - Info:Size of the (splitted) abstract ontology: 349027
+2016-04-18 10:45:57 INFO  Konclude_HornSHOIF_InnerReasoner:122 - Orar Info: Konclude is started.
+2016-04-18 10:45:57 INFO  Konclude_HornSHOIF_InnerReasoner:123 - {info} 10:45:57:617 >> Starting Konclude ... 
+{info} 10:45:57:618 >> Konclude - Uni Ulm Parallel Reasoner
+{info} 10:45:57:618 >> Reasoner for the SROIQV(D) Description Logic, 64-bit, Version v0.6.2-544 - f07c265 (Oct 26 2015)
+
+{info} 10:45:57:620 >> Listening on port '9191'
+{info} 10:45:57:626 >> Initializing reasoner. Creating calculation context.
+{info} 10:45:57:643 >> Reasoner initialized with 1 processing unit(s).
+
+2016-04-18 10:45:57 INFO  Konclude_HornSHOIF_InnerReasoner:130 - Konclude has been started.
+2016-04-18 10:45:57 INFO  Konclude_HornSHOIF_InnerReasoner:195 - Connected to Konclude server at: http://localhost:9191
+2016-04-18 10:46:23 INFO  InnerReasonerTemplate:152 - Computing concept assertions.... 
+2016-04-18 10:46:39 INFO  InnerReasonerTemplate:154 - Computing role assertions.... 
+2016-04-18 10:46:45 INFO  InnerReasonerTemplate:156 - Computing sameas assertions.... 
+2016-04-18 10:46:46 INFO  Konclude_HornSHOIF_InnerReasoner:144 - Konclude server has been stoped.
+2016-04-18 10:46:46 INFO  MaterializeTemplate:225 - Transferring the entailments ...
+2016-04-18 10:47:16 INFO  MaterializeTemplate:237 - Computing deductive closure wrt new entailments ...
+2016-04-18 10:47:16 INFO  MaterializeTemplate:243 - Finish loop: 3
+2016-04-18 10:47:16 INFO  MaterializeTemplate:101 - Current loop: 4
+2016-04-18 10:47:16 INFO  MaterializeTemplate:113 - Computing types...
+2016-04-18 10:47:27 INFO  MaterializeTemplate:128 - Statistic: Current_loop = 4;Statistic: Number_of_types = 7726
+2016-04-18 10:47:27 INFO  MaterializeTemplate:140 - Generating abstractions ...
+2016-04-18 10:47:44 INFO  MaterializeTemplate:142 - Info:Number of abstraction ontolog(ies):1
+2016-04-18 10:47:44 INFO  MaterializeTemplate:155 - Statistic: Current_loop = 4;Statistic: Number_of_x = 7726
+2016-04-18 10:47:44 INFO  MaterializeTemplate:157 - Statistic: Current_loop = 4;Statistic: Number_of_u = 7726
+2016-04-18 10:47:44 INFO  MaterializeTemplate:160 - Statistic: Current_loop = 4;Statistic: Number_of_yz = 112436
+2016-04-18 10:47:44 INFO  MaterializeTemplate:165 - Statistic: Current_loop = 4;Statistic: Number_of_abstract_individuals_xuyz = 127888
+2016-04-18 10:47:44 INFO  MaterializeTemplate:178 - Statistic: Current_loop = 4;Statistic: Number_of_abstract_concept_assertions = 236418
+2016-04-18 10:47:44 INFO  MaterializeTemplate:180 - Statistic: Current_loop = 4;Statistic: Number_of_abstract_role_assertions = 112436
+2016-04-18 10:47:44 INFO  MaterializeTemplate:182 - Statistic: Current_loop = 4;Statistic: Number_of_abstract_concept_and_role_assertions = 348854
+2016-04-18 10:47:44 INFO  MaterializeTemplate:189 - Materializing the abstractions ...
+2016-04-18 10:47:44 INFO  MaterializeTemplate:200 - Info:Materializing (splitted) abstract ontology: 1
+2016-04-18 10:47:44 INFO  MaterializeTemplate:201 - Info:Size of the (splitted) abstract ontology: 349027
+2016-04-18 10:47:44 INFO  Konclude_HornSHOIF_InnerReasoner:122 - Orar Info: Konclude is started.
+2016-04-18 10:47:44 INFO  Konclude_HornSHOIF_InnerReasoner:123 - {info} 10:47:44:627 >> Starting Konclude ... 
+{info} 10:47:44:627 >> Konclude - Uni Ulm Parallel Reasoner
+{info} 10:47:44:627 >> Reasoner for the SROIQV(D) Description Logic, 64-bit, Version v0.6.2-544 - f07c265 (Oct 26 2015)
+
+{info} 10:47:44:629 >> Listening on port '9191'
+{info} 10:47:44:630 >> Initializing reasoner. Creating calculation context.
+{info} 10:47:44:631 >> Reasoner initialized with 1 processing unit(s).
+
+2016-04-18 10:47:44 INFO  Konclude_HornSHOIF_InnerReasoner:130 - Konclude has been started.
+2016-04-18 10:47:44 INFO  Konclude_HornSHOIF_InnerReasoner:195 - Connected to Konclude server at: http://localhost:9191
+2016-04-18 10:48:09 INFO  InnerReasonerTemplate:152 - Computing concept assertions.... 
+2016-04-18 10:48:25 INFO  InnerReasonerTemplate:154 - Computing role assertions.... 
+2016-04-18 10:48:30 INFO  InnerReasonerTemplate:156 - Computing sameas assertions.... 
+2016-04-18 10:48:31 INFO  Konclude_HornSHOIF_InnerReasoner:144 - Konclude server has been stoped.
+2016-04-18 10:48:32 INFO  MaterializeTemplate:225 - Transferring the entailments ...
+2016-04-18 10:49:03 INFO  MaterializeTemplate:243 - Finish loop: 4
+2016-04-18 10:49:03 INFO  MaterializeTemplate:249 - Statistic: Number_of_refinement_steps = 3
+2016-04-18 10:49:03 INFO  MaterializeTemplate:257 - Statistic: Time_reasoning_using_abstraction_in_seconds = 1215
+2016-04-18 10:49:04 INFO  MaterializeTemplate:265 - Statistic: Number_of_materialized_concept_assertions = 7790093
+2016-04-18 10:49:04 INFO  MaterializeTemplate:267 - Statistic: Number_of_materialized_role_assertions = 14017148
+2016-04-18 10:49:04 INFO  MaterializeTemplate:268 - Statistic: Number_of_materialized_concept_and_role_assertions = 21807241

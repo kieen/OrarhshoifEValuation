@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 '''Vocabulary: copied from StatisticVocabulary.java '''
+import os
 ''' input ontology'''
 NUMBER_OF_TBOX_AXIOMS = "Statistic: Number_of_TBox_Axioms = "
 NUMBER_OF_INPUT_CONCEPTASSERTIONS = "Statistic: Number_of_input_concept_assertions = "
@@ -39,8 +40,13 @@ nameOfTheFile   &number_of_refinement_steps
 \\
 '''
 def readAbstractionInfoForOneOntology(logFileName):
+    global abstractionDict
+    abstractionDict.clear()
     global globalLogFileName
-    globalLogFileName = logFileName
+    fileNameInPath = os.path.basename(logFileName)
+    splittedExentsion = os.path.splitext(fileNameInPath)
+    globalLogFileName = splittedExentsion[0]
+    
     startAbox = False
     # a dictionary for abstraction which map the first(1), second (2),... abstraction to its info,e.g. type, size,..., stored in a list
 
@@ -54,6 +60,11 @@ def readAbstractionInfoForOneOntology(logFileName):
             printInputInformation(aline, NUMBER_OF_INPUT_CONCEPTNAMES)
             printInputInformation(aline, NUMBER_OF_INPUT_ROLENAMES)
             printInputInformation(aline, NUMBER_OF_TBOX_AXIOMS)
+            numberOfInputAssertionsReadFromThisLine = getInformation(aline, NUMBER_OF_INPUT_ASSERTIONS) 
+               
+            if not (numberOfInputAssertionsReadFromThisLine is None):
+                global numberOfInputAssertions
+                numberOfInputAssertions = numberOfInputAssertionsReadFromThisLine
             
             '''print ABox information'''
             if "ABoxList file" in aline:
@@ -90,8 +101,8 @@ def getAbstractionInfoForAllLoops():
     resultingString += globalLogFileName + "  "
     
     '''print number of refinements steps'''
-    print("&$%d$ " % (len(keys)-1), end="")
-    resultingString += "&$" + str(len(keys)-1) + "$ "
+    print("&$%d$ " % (len(keys) - 1), end="")
+    resultingString += "&$" + str(len(keys) - 1) + "$ "
     
     '''print the first and the last abstracion information'''
     firstAndLastKeys = []
